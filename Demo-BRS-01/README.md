@@ -13,6 +13,6 @@ The SQL files above (named in order of execution) contain the queries and result
 
 A Random Forest classification model is used to predict if the team won or lost the game based on using all non-response input columns as predictors. A Support Vector Machine classification is used to allow the demo audience to play around with seeing if a single non-response input column can be an accurate predictor. 
 
-This demo is intended to provide a simple introduction to machine learning models for classification.
+This demo is intended to provide a simple introduction to machine learning models for classification using SQL.
 
 To Learn More about the Vertica Machine Learning Classification Algorithms used in this demo, check out the Vertica documentation: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/ClassificationAlgorithms.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics%7CClassification%20Algorithms
