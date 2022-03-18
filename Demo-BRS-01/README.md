@@ -1,6 +1,6 @@
 # Demo-BRS-01
 
-Machine Learning Demo using Baseball Related Data (BRS). 
+Machine Learning Demo using Baseball Related Statistics (BRS). 
 
 The input data comes from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2021_input.csv 
 
