@@ -2,7 +2,7 @@
 
 Machine Learning Demo using Baseball Related Data (BRS). 
 
-The input data comes from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2021_input.csv
+The input data comes from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2021_input.csv 
 Its data profiling results comes from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2021_profile.csv
 
 Containing the following baseball statistics from team batting boxscore totals for games from the 2021 Major League Baseball (MLB) season:
