@@ -37,12 +37,3 @@ SELECT * FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction;
   67 | 2021-06-14 |           1 |             0 | Runs_Scored      |               2 |      31 |           2 |    7 |              2 |     1 |          7 |           0.226 |               0.25 |               0.258 |                0.508
 
 (9 rows)
-
-
-
-
-
-
-
-
-
