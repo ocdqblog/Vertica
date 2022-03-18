@@ -49,7 +49,7 @@ SELECT * FROM BRS_2021_prediction_RF WHERE Key IN (11,24,25,28,31,42,52,66,67);
 -- On Key 67, the Team also only scored 2 runs, but RF correctly predicted Win, while SVM incorrectly predicted Loss.
 -- On Key 25, the Team only scored 1 run, so it's not surprising that SVM incorrectly predicted Loss, but RF correctly predicted Win.
 -- On Keys 11 and 52, the Team scored 3 runs, SVM incorrectly predicted Loss, while RF correctly predicted Win.
--- On Keys 66, the Team scored 4 runs, SVM incorrectly predicted Win, while RF correctly predicted Loss.
+-- On Key 66, the Team scored 4 runs, SVM incorrectly predicted Win, while RF correctly predicted Loss.
 -- On Keys 31 and 42, the Team scored 5 runs, SVM incorrectly predicted Win, while RF correctly predicted Loss.
 
 -- (REMEMBER: This demo only trained/tested on 81 input rows. The results produced by both models would change if more data was processed.)
