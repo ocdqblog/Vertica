@@ -2,18 +2,8 @@
 
 Machine Learning Demo using Baseball Related Data (BRS). 
 
-The input data comes from: 
+The input data comes from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2021_input.csv
 
-Key int, 
-                             Game_Date date, 
-                             Game_Result int,
-                             At_Bats int,
-                             Runs_Scored int,
-                             Hits int,
-                             Runs_Batted_In int,
-                             Walks int,
-                             Strikeouts int,
-                             Batting_Average float,
-                             On_Base_Percentage float,
-                             Slugging_Percentage float,
-                             OnBase_Plus_Slugging float
+Containing the following baseball statistics from team batting boxscore totals for games from the 2021 Major League Baseball (MLB) season:
+Game_Date, At_Bats, Runs_Scored, Hits, Runs_Batted_In, Walks, Strikeouts, Batting_Average, On_Base_Percentage, Slugging_Percentage, OnBase_Plus_Slugging.
+The Game_Result column is either 0 or 1, where 0 = Loss and 1 = Win.
