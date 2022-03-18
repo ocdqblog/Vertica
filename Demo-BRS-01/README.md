@@ -11,4 +11,6 @@ and a Game_Result response column for training machine learning models, labeled 
 
 The SQL files above (named in order of execution) contain the queries and results that will walk you through the demo. 
 
-A Random Forest classification model is used to predict if the team won or lost the game based on using all non-response input columns as predictors. A Support Vector Machine classification is used to allow the demo audience to play around with seeing if a single non-response input column can be an accurate predictor.  
+A Random Forest classification model is used to predict if the team won or lost the game based on using all non-response input columns as predictors. A Support Vector Machine classification is used to allow the demo audience to play around with seeing if a single non-response input column can be an accurate predictor. 
+
+This demo is intended to provide a simple introduction to machine learning models for classification.
