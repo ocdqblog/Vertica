@@ -15,4 +15,4 @@ A Random Forest classification model is used to predict if the team won or lost 
 
 This demo is intended to provide a simple introduction to machine learning models for classification.
 
-To Learn More about Machine Learning Classification Algorithms: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/ClassificationAlgorithms.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics%7CClassification%20Algorithms%7C_____0
+To Learn More about Machine Learning Classification Algorithms: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/ClassificationAlgorithms.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics%7CClassification%20Algorithms
