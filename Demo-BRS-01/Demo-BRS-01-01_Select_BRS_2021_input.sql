@@ -4,6 +4,7 @@
 
 SELECT * FROM BRS_2021_input;
 
+
  Key | Game_Date  | Game_Result | At_Bats | Runs_Scored | Hits | Runs_Batted_In | Walks | Strikeouts | Batting_Average | On_Base_Percentage | Slugging_Percentage | OnBase_Plus_Slugging
 -----+------------+-------------+---------+-------------+------+----------------+-------+------------+-----------------+--------------------+---------------------+----------------------
    1 | 2021-04-02 |           0 |      29 |           0 |    2 |              0 |     2 |          8 |           0.069 |              0.129 |               0.103 |                0.232

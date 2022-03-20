@@ -25,7 +25,8 @@ CREATE TABLE BRS_2021_predictor AS (SELECT
                                     FROM BRS_2021_input);
 
 
-SELECT * FROM BRS_2021_predictor; 
+SELECT * FROM BRS_2021_predictor;
+
 
  Key | Game_Date  | Game_Result | Predictor_Column | Predictor_Value | At_Bats | Runs_Scored | Hits | Runs_Batted_In | Walks | Strikeouts | Batting_Average | On_Base_Percentage | Slugging_Percentage | OnBase_Plus_Slugging
 -----+------------+-------------+------------------+-----------------+---------+-------------+------+----------------+-------+------------+-----------------+--------------------+---------------------+----------------------

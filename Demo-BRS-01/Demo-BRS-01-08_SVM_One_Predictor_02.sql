@@ -11,8 +11,8 @@ SELECT CONFUSION_MATRIX(obs::int, pred::int USING PARAMETERS num_classes=2) OVER
 --------------+-------------+-------------+---------------------------------------------
             0 |          27 |           4 |
             1 |           5 |          45 | Of 81 rows, 81 were used and 0 were ignored
-(2 rows)
 
+(2 rows)
 
 DROP TABLE IF EXISTS BRS_2021_prediction_SVM;
 
@@ -22,18 +22,40 @@ CREATE TABLE BRS_2021_prediction_SVM AS (SELECT Key, Game_Date, Game_Result,
                                          FROM BRS_2021_predictor);
 
 
-SELECT * FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction;
+SELECT
+a.ML_Prediction_Errors,
+100 - (a.ML_Prediction_Errors / b.Total_Input_Rows) * 100 AS ML_Prediction_Accuracy  
+FROM
+(SELECT COUNT(*) AS ML_Prediction_Errors FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction) AS a,
+(SELECT COUNT(*) AS Total_Input_Rows FROM BRS_2021_prediction_SVM) as b;
 
- Key | Game_Date  | Game_Result | ML_Prediction | Predictor_Column | Predictor_Value | At_Bats | Runs_Scored | Hits | Runs_Batted_In | Walks | Strikeouts | Batting_Average | On_Base_Percentage | Slugging_Percentage | OnBase_Plus_Slugging
------+------------+-------------+---------------+------------------+-----------------+---------+-------------+------+----------------+-------+------------+-----------------+--------------------+---------------------+----------------------
-  11 | 2021-04-14 |           1 |             0 | Runs_Scored      |               3 |      32 |           3 |   11 |              2 |     3 |          7 |           0.344 |                0.4 |               0.438 |                0.838
-  24 | 2021-04-27 |           1 |             0 | Runs_Scored      |               2 |      29 |           2 |    5 |              2 |     2 |          8 |           0.172 |              0.226 |               0.345 |                0.571
-  25 | 2021-04-28 |           1 |             0 | Runs_Scored      |               1 |      30 |           1 |    4 |              1 |     1 |         15 |           0.133 |              0.161 |               0.233 |                0.395
-  28 | 2021-05-01 |           0 |             1 | Runs_Scored      |               6 |      38 |           6 |   12 |              6 |     4 |         12 |           0.316 |              0.372 |               0.447 |                0.819
-  31 | 2021-05-05 |           0 |             1 | Runs_Scored      |               5 |      39 |           5 |    9 |              5 |     6 |          8 |           0.231 |              0.348 |               0.333 |                0.681
-  42 | 2021-05-16 |           0 |             1 | Runs_Scored      |               5 |      35 |           5 |    9 |              5 |     2 |         14 |           0.257 |              0.297 |               0.486 |                0.783
-  52 | 2021-05-29 |           1 |             0 | Runs_Scored      |               3 |      35 |           3 |   12 |              3 |     0 |          6 |           0.343 |              0.343 |               0.486 |                0.829
-  66 | 2021-06-13 |           0 |             1 | Runs_Scored      |               4 |      32 |           4 |    6 |              4 |     4 |         12 |           0.188 |              0.278 |               0.406 |                0.684
-  67 | 2021-06-14 |           1 |             0 | Runs_Scored      |               2 |      31 |           2 |    7 |              2 |     1 |          7 |           0.226 |               0.25 |               0.258 |                0.508
 
-(9 rows)
+ ML_Prediction_Errors | ML_Prediction_Accuracy
+----------------------+------------------------
+                    9 |  88.888888888888888900
+
+(1 row)
+
+-------------------------------------------------
+--       Alternate way of displaying the
+--      the Confusion Matrix shown above 
+-------------------------------------------------
+
+SELECT 
+true_positives.ML_Correctly_Predicted_Win,
+true_negatives.ML_Correctly_Predicted_Loss,
+false_positives.ML_Incorrectly_Predicted_Win,
+false_negatives.ML_Incorrectly_Predicted_Loss
+
+FROM
+(SELECT COUNT(*) AS ML_Correctly_Predicted_Win FROM BRS_2021_prediction_SVM WHERE Game_Result = ML_Prediction AND Game_Result = 1) AS true_positives,
+(SELECT COUNT(*) AS ML_Correctly_Predicted_Loss FROM BRS_2021_prediction_SVM WHERE Game_Result = ML_Prediction AND Game_Result = 0) AS true_negatives,
+(SELECT COUNT(*) AS ML_Incorrectly_Predicted_Win FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction AND Game_Result = 0) AS false_positives,
+(SELECT COUNT(*) AS ML_Incorrectly_Predicted_Loss FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction AND Game_Result = 1) AS false_negatives;
+
+
+ ML_Correctly_Predicted_Win | ML_Correctly_Predicted_Loss | ML_Incorrectly_Predicted_Win | ML_Incorrectly_Predicted_Loss
+----------------------------+-----------------------------+------------------------------+-------------------------------
+                         45 |                          27 |                            4 |                             5
+
+(1 row)

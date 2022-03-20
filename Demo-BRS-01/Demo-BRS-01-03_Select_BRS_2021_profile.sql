@@ -4,6 +4,7 @@
 
 SELECT * FROM BRS_2021_profile;
 
+
      Column_Name      | value_count | unique_count | unique_percent | null_count | null_percent | min_value  | max_value  |     mean_value      | median_value |     stdev_value     | most_common_value | least_common_value | min_length | max_length | format_count | most_common_format | least_common_format | pattern_count | most_common_pattern | least_common_pattern | ML_datatype | is_null | is_unique | is_constant
 ----------------------+-------------+--------------+----------------+------------+--------------+------------+------------+---------------------+--------------+---------------------+-------------------+--------------------+------------+------------+--------------+--------------------+---------------------+---------------+---------------------+----------------------+-------------+---------+-----------+-------------
  Game_Date            |          81 |           79 |          97.53 |          0 |            0 | 04-02-2021 | 06-30-2021 | N/A                 | N/A          | N/A                 | 04-14-2021 (2)    | 06-30-2021 (1)     |         10 |         10 |            1 | nn-nn-nnnn (81)    | nn-nn-nnnn (81)     |             1 | date (81)           | date (81)            | Categorical | f       | f         | f

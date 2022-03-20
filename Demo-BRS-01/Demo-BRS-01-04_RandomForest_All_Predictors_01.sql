@@ -3,12 +3,12 @@
 --  Using all non-response input columns as predictors
 ---------------------------------------------------------
 
-DROP MODEL BRS_2021_RandomForestModel;
+DROP MODEL IF EXISTS BRS_2021_RandomForestModel;
 
-SELECT RF_CLASSIFIER('BRS_2021_RandomForestModel', 
-                     'BRS_2021_input', 
-                     'Game_Result', 
-                     'At_Bats, Runs_Scored, Hits, Runs_Batted_In, Walks, Strikeouts, Batting_Average, On_Base_Percentage, Slugging_Percentage, OnBase_Plus_Slugging');
+SELECT RF_CLASSIFIER ('BRS_2021_RandomForestModel', 
+                      'BRS_2021_input', 
+                      'Game_Result', 
+                      'At_Bats, Runs_Scored, Hits, Runs_Batted_In, Walks, Strikeouts, Batting_Average, On_Base_Percentage, Slugging_Percentage, OnBase_Plus_Slugging');
 
 SELECT GET_MODEL_SUMMARY(USING PARAMETERS model_name='BRS_2021_RandomForestModel');
 
@@ -45,3 +45,5 @@ rejected_row_count|  0
 accepted_row_count| 81
 
 (1 row)
+
+

@@ -2,15 +2,16 @@
 -- Classification using Support Vector Machine (SVM) 
 -------------------------------------------------------
 
-DROP MODEL BRS_2021_SupportVectorMachineModel;
+DROP MODEL IF EXISTS BRS_2021_SupportVectorMachineModel;
 
-SELECT SVM_CLASSIFIER('BRS_2021_SupportVectorMachineModel', 
-                      'BRS_2021_predictor', 
-                      'Game_Result', 
-                      'Predictor_Value');
+SELECT SVM_CLASSIFIER ('BRS_2021_SupportVectorMachineModel', 
+                       'BRS_2021_predictor', 
+                       'Game_Result', 
+                       'Predictor_Value');
 
 
 SELECT GET_MODEL_SUMMARY(USING PARAMETERS model_name='BRS_2021_SupportVectorMachineModel');
+
 
 =======
 details
