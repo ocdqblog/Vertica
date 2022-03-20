@@ -1,3 +1,18 @@
+-------------------------------------------------------
+-- Load data into the input table: BRS_2021_HR_input 
+-------------------------------------------------------
+
+DROP TABLE IF EXISTS BRS_2021_HR_input;
+
+CREATE TABLE BRS_2021_HR_input (Key int, 
+                                Game_Date date, 
+                                Game_Result int,
+                                At_Bats int,
+                                Runs_Scored int,
+                                Hits int,
+                                Home_Runs int,
+                                Runs_Batted_In int);
+
 INSERT INTO BRS_2021_HR_input VALUES(1, '2021-10-02', 1, '5', '3', '3', '3', '7');
 INSERT INTO BRS_2021_HR_input VALUES(2, '2021-09-12', 1, '4', '3', '3', '3', '5');
 INSERT INTO BRS_2021_HR_input VALUES(3, '2021-08-01', 0, '4', '3', '4', '3', '5');
