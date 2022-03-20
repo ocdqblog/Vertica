@@ -45,5 +45,3 @@ rejected_row_count|  0
 accepted_row_count| 81
 
 (1 row)
-
-
