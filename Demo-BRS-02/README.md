@@ -6,7 +6,7 @@ The raw data used in this demo was collected via a paid subscription to: https:/
 
 The input data comes from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2021_HR_input.csv 
 
-(Its data profiling results come from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2021_HR_profile.csv 
+(Its data profiling results come from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2021_HR_profile.csv) 
 
 The SQL files above (named in order of execution) contain the queries and results that will walk you through the demo. 
 
