@@ -15,6 +15,8 @@ A Random Forest classification model is used to predict if the team won or lost 
 
 This demo is intended to provide a simple introduction to machine learning models for classification using SQL.
 
+In the next demo (https://github.com/ocdqblog/Vertica/tree/main/Demo-BRS-02), the same games are broken down to the individual player box score totals, and a Random Forest classification model is used to determine if the most exciting event in baseball -- a player hitting a home run -- can accurately predict whether the team will win the game.
+
 To Learn More about the Vertica Machine Learning Classification Algorithms used in this demo, check out the Vertica documentation: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/ClassificationAlgorithms.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics%7CClassification%20Algorithms
 
 Check out the Vertica GitHub for more awesome repositories: https://github.com/vertica
