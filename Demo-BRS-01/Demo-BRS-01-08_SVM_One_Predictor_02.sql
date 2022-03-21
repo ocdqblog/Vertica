@@ -14,6 +14,10 @@ SELECT CONFUSION_MATRIX(obs::int, pred::int USING PARAMETERS num_classes=2) OVER
 
 (2 rows)
 
+-------------------------------------------------
+-- Create and load a table of SVM predictions 
+-------------------------------------------------
+
 DROP TABLE IF EXISTS BRS_2021_prediction_SVM;
 
 CREATE TABLE BRS_2021_prediction_SVM AS (SELECT Key, Game_Date, Game_Result,
@@ -21,41 +25,43 @@ CREATE TABLE BRS_2021_prediction_SVM AS (SELECT Key, Game_Date, Game_Result,
                                          USING PARAMETERS model_name='BRS_2021_SupportVectorMachineModel') AS ML_Prediction, Predictor_Column, Predictor_Value, At_Bats, Runs_Scored, Hits, Runs_Batted_In, Walks, Strikeouts, Batting_Average, On_Base_Percentage, Slugging_Percentage, OnBase_Plus_Slugging 
                                          FROM BRS_2021_predictor);
 
+-------------------------------------------------------------
+--    Create and load a table of SVM metrics 
+-------------------------------------------------------------
+--  Alternate and extended way of displaying
+--       the Confusion Matrix shown above 
+-------------------------------------------------------------
+-- Accuracy = Overall performance of the model
+-- Precision = How accurate the positive predictions are 
+-- Recall Sensitivity = Coverage of actual positive sample
+-- Specificity = Coverage of actual negative sample
+-------------------------------------------------------------
 
-SELECT
-a.ML_Prediction_Errors,
-100 - (a.ML_Prediction_Errors / b.Total_Input_Rows) * 100 AS ML_Prediction_Accuracy  
-FROM
-(SELECT COUNT(*) AS ML_Prediction_Errors FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction) AS a,
-(SELECT COUNT(*) AS Total_Input_Rows FROM BRS_2021_prediction_SVM) as b;
+DROP TABLE IF EXISTS BRS_2021_prediction_SVM_metrics;
+
+CREATE TABLE BRS_2021_prediction_SVM_metrics AS (SELECT 
+                                                true_positives.TP AS ML_Correctly_Predicted_Win,
+                                                true_negatives.TN AS ML_Correctly_Predicted_Loss,
+                                                false_positives.FP AS ML_Incorrectly_Predicted_Win,
+                                                false_negatives.FN AS ML_Incorrectly_Predicted_Loss,
+                                                total_errors.ML_Prediction_Errors,
+                                                CAST((true_positives.TP + true_negatives.TN) / (true_positives.TP + true_negatives.TN + false_positives.FP + false_negatives.FN) AS decimal(5,3)) AS ML_Accuracy,
+                                                CAST(true_positives.TP / (true_positives.TP + false_positives.FP) AS decimal(5,3)) AS ML_Precision,
+                                                CAST(true_positives.TP / (true_positives.TP + false_negatives.FN) AS decimal(5,3)) AS ML_Recall_Sensitivity,
+                                                CAST(true_negatives.TN / (true_negatives.TN + false_positives.FP) AS decimal(5,3)) AS ML_Specificity
+                                                FROM
+                                                (SELECT COUNT(*) AS TP FROM BRS_2021_prediction_SVM WHERE Game_Result = ML_Prediction AND Game_Result = 1) AS true_positives,
+                                                (SELECT COUNT(*) AS TN FROM BRS_2021_prediction_SVM WHERE Game_Result = ML_Prediction AND Game_Result = 0) AS true_negatives,
+                                                (SELECT COUNT(*) AS FP FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction AND Game_Result = 0) AS false_positives,
+                                                (SELECT COUNT(*) AS FN FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction AND Game_Result = 1) AS false_negatives,
+                                                (SELECT COUNT(*) AS ML_Prediction_Errors FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction) AS total_errors);
 
 
- ML_Prediction_Errors | ML_Prediction_Accuracy
-----------------------+------------------------
-                    9 |  88.888888888888888900
-
-(1 row)
-
--------------------------------------------------
---       Alternate way of displaying the
---      the Confusion Matrix shown above 
--------------------------------------------------
-
-SELECT 
-true_positives.ML_Correctly_Predicted_Win,
-true_negatives.ML_Correctly_Predicted_Loss,
-false_positives.ML_Incorrectly_Predicted_Win,
-false_negatives.ML_Incorrectly_Predicted_Loss
-
-FROM
-(SELECT COUNT(*) AS ML_Correctly_Predicted_Win FROM BRS_2021_prediction_SVM WHERE Game_Result = ML_Prediction AND Game_Result = 1) AS true_positives,
-(SELECT COUNT(*) AS ML_Correctly_Predicted_Loss FROM BRS_2021_prediction_SVM WHERE Game_Result = ML_Prediction AND Game_Result = 0) AS true_negatives,
-(SELECT COUNT(*) AS ML_Incorrectly_Predicted_Win FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction AND Game_Result = 0) AS false_positives,
-(SELECT COUNT(*) AS ML_Incorrectly_Predicted_Loss FROM BRS_2021_prediction_SVM WHERE Game_Result != ML_Prediction AND Game_Result = 1) AS false_negatives;
+SELECT * FROM BRS_2021_prediction_SVM_metrics; 
 
 
- ML_Correctly_Predicted_Win | ML_Correctly_Predicted_Loss | ML_Incorrectly_Predicted_Win | ML_Incorrectly_Predicted_Loss
-----------------------------+-----------------------------+------------------------------+-------------------------------
-                         45 |                          27 |                            4 |                             5
+ ML_Correctly_Predicted_Win | ML_Correctly_Predicted_Loss | ML_Incorrectly_Predicted_Win | ML_Incorrectly_Predicted_Loss | ML_Prediction_Errors | ML_Accuracy | ML_Precision | ML_Recall_Sensitivity | ML_Specificity
+----------------------------+-----------------------------+------------------------------+-------------------------------+----------------------+-------------+--------------+-----------------------+----------------
+                         45 |                          27 |                            4 |                             5 |                    9 |       0.889 |        0.918 |                 0.900 |          0.871
 
 (1 row)
