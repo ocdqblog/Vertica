@@ -14,7 +14,7 @@ The SQL files above (named in order of execution) contain the queries and result
 
 This demo is intended to provide a simple introduction to the following machine learning key concepts:
 
-(1) The need to one-hot-encode categorical values in a predictor column. 
+(1) The need to one-hot-encode categorical data values in a predictor column. 
 
 (2) Logistic Regression classification can return a probability instead of a class.
 
