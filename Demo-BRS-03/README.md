@@ -8,15 +8,22 @@ The input data comes from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS
 
 (Its data profiling results come from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_profile.csv)
 
+The data represents 6 years (2016-2021) of Boston Red Sox regular season baseball game results. 
+
+The SQL files above (named in order of execution) contain the queries and results that will walk you through the demo.
+
+This demo is intended to provide a simple introduction to the following machine learning key concepts:
+(1) The need to one-hot-encode categorical values in a predictor column 
+(2) Logistic Regression classification can return a probability instead of a class
+(3) Depending on what you are trying to achieve, you do not need to use machine learning 
+
+
 The one-hot-encoded data: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_encoded.csv  
 
 The output data: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_output.csv
 
-The SQL files above (named in order of execution) contain the queries and results that will walk you through the demo. 
 
-This demo is intended to provide a simple introduction to machine learning models for classification using SQL.
-
-To Learn More about the Vertica Machine Learning Classification Algorithms used in this demo, check out the Vertica documentation: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/ClassificationAlgorithms.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics%7CClassification%20Algorithms
+To Learn More about the Vertica In-Database Machine Learning for Predictive Analytics, check out the Vertica documentation: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/MachineLearning.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics 
 
 Check out the Vertica GitHub for more awesome repositories: https://github.com/vertica
 
