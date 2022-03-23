@@ -8,13 +8,16 @@ The input data comes from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS
 
 (Its data profiling results come from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_profile.csv)
 
-The input data represents 6 years (2016-2021) of Boston Red Sox Major League Baseball (MLB) regular season baseball game results, including a Game_Result response column, labeled either 0 or 1, where 0 = Loss and 1 = Win. The goal of the demo is to use a Logistic Regression machine learning model to predict if the Red Sox will win a game based on what team they are playing.
+The input data represents 6 years (2016-2021) of Boston Red Sox Major League Baseball (MLB) regular season baseball game results, including a Game_Result response column, labeled either 0 or 1, where 0 = Loss and 1 = Win. The goal of the demo is to use a Logistic Regression machine learning model to predict if the Boston Red Sox will win a game based on what team they are playing.
 
 The SQL files above (named in order of execution) contain the queries and results that will walk you through the demo.
 
 This demo is intended to provide a simple introduction to the following machine learning key concepts:
+
 (1) The need to one-hot-encode categorical values in a predictor column 
+
 (2) Logistic Regression classification can return a probability instead of a class
+
 (3) Depending on what you are trying to achieve, you do not need to use machine learning 
 
 The one-hot-encoded data: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_encoded.csv  
