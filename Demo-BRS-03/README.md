@@ -24,7 +24,7 @@ The one-hot-encoded data: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_
 
 The output data: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_output.csv
 
-To Learn More about the Vertica In-Database Machine Learning for Predictive Analytics, check out the Vertica documentation: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/MachineLearning.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics 
+To Learn More about Vertica In-Database Machine Learning for Predictive Analytics, check out the Vertica documentation: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/MachineLearning.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics 
 
 Check out the Vertica GitHub for more awesome repositories: https://github.com/vertica
 
