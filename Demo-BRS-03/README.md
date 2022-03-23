@@ -8,7 +8,7 @@ The input data comes from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS
 
 (Its data profiling results come from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_profile.csv)
 
-The data represents 6 years (2016-2021) of Boston Red Sox regular season baseball game results. 
+The input data represents 6 years (2016-2021) of Boston Red Sox regular season baseball game results, including a Game_Result response column, labeled either 0 or 1, where 0 = Loss and 1 = Win. The goal of the demo is to predict if the Red Sox will win a game based on what team they are playing.  
 
 The SQL files above (named in order of execution) contain the queries and results that will walk you through the demo.
 
@@ -17,11 +17,9 @@ This demo is intended to provide a simple introduction to the following machine 
 (2) Logistic Regression classification can return a probability instead of a class
 (3) Depending on what you are trying to achieve, you do not need to use machine learning 
 
-
 The one-hot-encoded data: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_encoded.csv  
 
 The output data: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_output.csv
-
 
 To Learn More about the Vertica In-Database Machine Learning for Predictive Analytics, check out the Vertica documentation: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/MachineLearning.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics 
 
