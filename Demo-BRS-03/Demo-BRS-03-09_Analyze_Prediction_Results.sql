@@ -29,7 +29,7 @@
 --   by dividing the wins against an opponent
 --  by the number of games played against them
 -------------------------------------------------
---    This demo functions a simple example 
+--    This demo functions as a simple example 
 --  of how LOGREG probabilities are calculated         
 -------------------------------------------------
 
