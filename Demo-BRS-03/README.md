@@ -4,7 +4,7 @@ Machine Learning Demo using Baseball Related Statistics (BRS).
 
 The raw data used in this demo was collected via a paid subscription to: https://stathead.com/baseball/ 
 
-The input data comes from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_input.csv
+The input data comes from: [BRS_2016_2021_input.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_input.csv)
 
 (Its data profiling results come from: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_profile.csv)
 
