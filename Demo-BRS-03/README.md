@@ -20,9 +20,9 @@ This demo is intended to provide a simple introduction to the following machine 
 
 3. Depending on what you are trying to achieve, you do not need to use machine learning. 
 
-The one-hot-encoded data: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_encoded.csv  
+The one-hot-encoded data: [BRS_2016_2021_encoded.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_encoded.csv)
 
-The output data: https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_output.csv
+The output data: [BRS_2016_2021_output.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_output.csv)
 
 To Learn More about Vertica In-Database Machine Learning for Predictive Analytics, check out the Vertica documentation: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/MachineLearning.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics 
 
