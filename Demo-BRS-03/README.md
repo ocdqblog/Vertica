@@ -6,7 +6,7 @@ The raw data used in this demo was collected via a paid subscription to: https:/
 
 The input data comes from: [BRS_2016_2021_input.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_input.csv)
 
-(Its data profiling results come from: [BRS_2016_2021_profile.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_profile.csv))
+( Its data profiling results come from: [BRS_2016_2021_profile.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_profile.csv) )
 
 The input data represents 6 years (2016-2021) of Boston Red Sox Major League Baseball (MLB) regular season baseball game results, including a Game_Result response column, labeled either 0 or 1, where 0 = Loss and 1 = Win. The goal of the demo is to use a Logistic Regression classification machine learning model to predict if the Boston Red Sox will win a game based on what team they are playing.
 
