@@ -647,66 +647,66 @@ Key,Game_Date,Team,Opponent,Game_Result,At_Bats,Runs_Scored,Hits,Doubles,Triples
 646,2019-09-27,Boston Red Sox,Baltimore Orioles,0,30,1,6,3,0,0,1,1,12,1,0,0,0,0,0,0,4,10,34533,182
 647,2019-09-28,Boston Red Sox,Baltimore Orioles,0,35,4,9,0,0,2,4,5,7,0,0,0,0,2,0,0,9,10,36414,217
 648,2019-09-29,Boston Red Sox,Baltimore Orioles,1,34,5,12,1,1,0,3,3,7,1,0,0,0,1,1,0,9,12,35427,202
-649,2020-07-24,Boston Red Sox,Baltimore Orioles,1,40,13,17,8,0,0,13,7,9,0,0,0,0,0,0,0,10,12,,198
-650,2020-07-25,Boston Red Sox,Baltimore Orioles,0,37,2,9,0,0,1,2,0,11,2,0,0,0,0,0,0,10,10,,181
-651,2020-07-26,Boston Red Sox,Baltimore Orioles,0,34,4,7,1,0,2,4,0,6,0,0,0,1,1,0,0,3,10,,193
-652,2020-07-27,Boston Red Sox,New York Mets,0,34,4,8,1,0,2,4,2,5,0,0,0,0,1,1,0,5,9,,191
-653,2020-07-28,Boston Red Sox,New York Mets,0,34,3,9,4,0,0,2,2,6,0,0,0,1,2,0,0,6,10,,178
-654,2020-07-29,Boston Red Sox,New York Mets,1,33,6,8,4,0,1,5,4,8,0,1,0,0,0,0,1,5,12,,224
-655,2020-07-30,Boston Red Sox,New York Mets,1,34,4,9,0,0,2,4,4,9,1,0,0,0,0,0,1,8,10,,229
-656,2020-07-31,Boston Red Sox,New York Yankees,0,30,1,5,0,0,1,1,2,9,1,0,0,0,2,0,0,5,9,,188
-657,2020-08-01,Boston Red Sox,New York Yankees,0,33,2,6,1,0,0,1,4,12,0,0,0,0,0,0,0,8,9,,187
-658,2020-08-02,Boston Red Sox,New York Yankees,0,37,7,10,3,0,3,6,1,11,0,0,0,0,0,0,0,4,11,,192
-659,2020-08-04,Boston Red Sox,Tampa Bay Rays,0,36,1,8,2,0,1,1,1,10,0,0,0,1,0,0,0,9,11,,194
-660,2020-08-05,Boston Red Sox,Tampa Bay Rays,1,36,5,10,2,0,2,5,1,11,2,0,0,0,1,0,0,7,10,,185
-661,2020-08-07,Boston Red Sox,Toronto Blue Jays,1,29,5,6,1,0,3,5,9,11,0,0,0,0,1,1,0,9,9,,213
-662,2020-08-08,Boston Red Sox,Toronto Blue Jays,0,31,1,4,0,0,0,1,4,8,0,0,0,2,2,1,0,7,10,,198
-663,2020-08-09,Boston Red Sox,Toronto Blue Jays,1,30,5,4,0,0,3,4,1,12,0,1,0,0,1,0,0,1,11,,166
-664,2020-08-10,Boston Red Sox,Tampa Bay Rays,0,37,7,12,2,0,1,7,4,7,0,0,0,0,2,0,0,7,12,,264
-665,2020-08-11,Boston Red Sox,Tampa Bay Rays,0,32,2,9,1,1,0,2,1,9,2,0,0,0,2,0,1,6,11,,205
-666,2020-08-12,Boston Red Sox,Tampa Bay Rays,0,38,5,12,0,0,1,5,0,10,0,0,0,0,1,1,0,6,11,,178
-667,2020-08-13,Boston Red Sox,Tampa Bay Rays,0,39,8,13,7,1,0,8,3,11,1,0,0,0,1,0,0,8,12,,224
-668,2020-08-14,Boston Red Sox,New York Yankees,0,33,3,7,1,0,1,3,2,12,0,0,0,0,0,0,1,5,9,,215
-669,2020-08-15,Boston Red Sox,New York Yankees,0,37,5,11,1,1,2,5,1,5,0,0,0,0,0,0,0,6,9,,185
-670,2020-08-16,Boston Red Sox,New York Yankees,0,31,2,5,2,0,1,1,4,8,0,0,0,1,2,1,0,6,11,,186
-671,2020-08-17,Boston Red Sox,New York Yankees,0,35,3,8,2,1,0,3,2,9,1,0,0,2,2,0,0,8,10,,166
-672,2020-08-18,Boston Red Sox,Philadelphia Phillies,0,36,6,11,4,0,0,6,6,15,0,0,1,0,0,0,0,10,11,,246
-673,2020-08-19,Boston Red Sox,Philadelphia Phillies,1,30,6,9,5,0,1,5,7,10,0,0,1,1,2,1,0,8,9,,216
-674,2020-08-20,Boston Red Sox,Baltimore Orioles,1,39,7,12,0,0,2,7,4,9,0,0,0,0,0,0,0,9,9,,206
-675,2020-08-21,Boston Red Sox,Baltimore Orioles,1,35,8,9,1,0,3,8,2,5,1,0,0,0,1,0,0,3,9,,184
-676,2020-08-22,Boston Red Sox,Baltimore Orioles,0,37,4,8,3,0,1,4,6,7,0,0,0,0,1,0,0,9,9,,216
-677,2020-08-23,Boston Red Sox,Baltimore Orioles,0,33,4,6,1,0,2,4,4,7,0,0,0,0,0,2,0,6,10,,197
-678,2020-08-25,Boston Red Sox,Toronto Blue Jays,1,38,9,13,3,1,0,9,3,6,1,0,1,0,0,0,1,7,9,,222
-679,2020-08-26,Boston Red Sox,Toronto Blue Jays,0,29,1,3,1,0,1,1,3,7,0,0,0,0,1,0,0,4,9,,178
-680,2020-08-28,Boston Red Sox,Washington Nationals,0,36,2,10,2,0,0,2,1,13,0,0,0,0,0,0,0,8,11,,201
-681,2020-08-29,Boston Red Sox,Washington Nationals,1,32,5,9,2,1,2,5,0,7,0,0,0,0,1,2,0,3,9,,205
-682,2020-08-30,Boston Red Sox,Washington Nationals,1,39,9,15,4,0,4,9,3,7,1,0,0,1,1,1,0,10,10,,206
-683,2020-08-31,Boston Red Sox,Atlanta Braves,0,34,3,8,4,0,0,2,2,11,0,0,0,0,1,0,0,6,9,,199
-684,2020-09-01,Boston Red Sox,Atlanta Braves,0,34,3,8,2,0,0,3,2,10,1,0,0,0,1,0,0,7,9,,185
-685,2020-09-02,Boston Red Sox,Atlanta Braves,0,33,5,7,3,0,1,5,3,12,0,0,1,0,0,1,0,5,9,,181
-686,2020-09-03,Boston Red Sox,Toronto Blue Jays,0,38,2,9,1,0,1,2,5,11,0,0,0,0,1,1,0,11,10,,242
-687,2020-09-04,Boston Red Sox,Toronto Blue Jays,0,31,7,11,4,0,1,6,2,8,0,0,0,0,1,0,0,5,9,,162
-688,2020-09-04,Boston Red Sox,Toronto Blue Jays,1,27,3,7,2,0,0,2,4,8,0,0,0,0,1,0,0,7,9,,169
-689,2020-09-05,Boston Red Sox,Toronto Blue Jays,1,39,9,15,2,0,5,9,3,6,0,0,0,0,1,1,0,8,10,,221
-690,2020-09-06,Boston Red Sox,Toronto Blue Jays,0,35,8,10,0,0,4,8,7,10,1,0,1,0,0,1,0,9,13,,263
-691,2020-09-08,Boston Red Sox,Philadelphia Phillies,0,31,5,11,1,0,4,5,2,7,1,0,0,0,1,0,0,8,9,,169
-692,2020-09-08,Boston Red Sox,Philadelphia Phillies,1,31,5,10,1,0,1,5,3,11,0,0,0,0,0,0,0,8,9,,156
-693,2020-09-10,Boston Red Sox,Tampa Bay Rays,1,34,4,8,0,0,2,4,3,13,0,0,0,0,1,0,0,6,9,,202
-694,2020-09-11,Boston Red Sox,Tampa Bay Rays,0,35,1,11,3,0,0,1,2,6,0,0,0,0,3,0,1,9,11,,217
-695,2020-09-12,Boston Red Sox,Tampa Bay Rays,0,34,4,7,1,0,2,4,1,10,0,0,0,0,0,6,0,4,9,,157
-696,2020-09-13,Boston Red Sox,Tampa Bay Rays,1,37,6,11,2,0,2,6,2,6,1,0,0,0,1,1,0,7,9,,191
-697,2020-09-15,Boston Red Sox,Miami Marlins,1,33,2,7,2,0,0,2,4,9,0,0,0,0,1,0,0,8,9,,185
-698,2020-09-16,Boston Red Sox,Miami Marlins,0,36,4,10,3,0,1,4,4,12,1,0,1,0,0,1,0,11,9,,215
-699,2020-09-17,Boston Red Sox,Miami Marlins,1,34,5,10,0,0,1,5,3,11,0,0,0,0,2,0,1,5,10,,189
-700,2020-09-18,Boston Red Sox,New York Yankees,0,47,5,10,2,0,1,5,5,15,0,1,0,2,1,6,0,12,10,,295
-701,2020-09-19,Boston Red Sox,New York Yankees,0,32,0,5,2,0,0,0,0,9,0,0,0,0,1,0,0,5,10,,179
-702,2020-09-20,Boston Red Sox,New York Yankees,1,36,10,14,3,0,4,10,4,3,1,0,1,0,0,0,1,8,9,,202
-703,2020-09-22,Boston Red Sox,Baltimore Orioles,1,37,8,14,4,0,1,7,4,8,0,0,1,3,2,1,0,10,9,,211
-704,2020-09-23,Boston Red Sox,Baltimore Orioles,1,35,9,10,4,1,0,8,5,10,0,0,0,0,0,0,0,7,10,,184
-705,2020-09-24,Boston Red Sox,Baltimore Orioles,0,30,1,7,0,0,0,0,2,7,1,0,0,1,4,0,1,5,13,,194
-706,2020-09-25,Boston Red Sox,Atlanta Braves,0,38,7,7,0,0,1,6,7,7,0,1,1,0,0,0,0,7,12,,239
-707,2020-09-26,Boston Red Sox,Atlanta Braves,1,36,8,8,1,0,2,8,6,12,0,0,0,1,0,1,0,7,9,,202
-708,2020-09-27,Boston Red Sox,Atlanta Braves,1,42,9,15,2,0,4,9,4,11,1,0,0,0,0,0,0,11,10,,203
+649,2020-07-24,Boston Red Sox,Baltimore Orioles,1,40,13,17,8,0,0,13,7,9,0,0,0,0,0,0,0,10,12,0,198
+650,2020-07-25,Boston Red Sox,Baltimore Orioles,0,37,2,9,0,0,1,2,0,11,2,0,0,0,0,0,0,10,10,0,181
+651,2020-07-26,Boston Red Sox,Baltimore Orioles,0,34,4,7,1,0,2,4,0,6,0,0,0,1,1,0,0,3,10,0,193
+652,2020-07-27,Boston Red Sox,New York Mets,0,34,4,8,1,0,2,4,2,5,0,0,0,0,1,1,0,5,9,0,191
+653,2020-07-28,Boston Red Sox,New York Mets,0,34,3,9,4,0,0,2,2,6,0,0,0,1,2,0,0,6,10,0,178
+654,2020-07-29,Boston Red Sox,New York Mets,1,33,6,8,4,0,1,5,4,8,0,1,0,0,0,0,1,5,12,0,224
+655,2020-07-30,Boston Red Sox,New York Mets,1,34,4,9,0,0,2,4,4,9,1,0,0,0,0,0,1,8,10,0,229
+656,2020-07-31,Boston Red Sox,New York Yankees,0,30,1,5,0,0,1,1,2,9,1,0,0,0,2,0,0,5,9,0,188
+657,2020-08-01,Boston Red Sox,New York Yankees,0,33,2,6,1,0,0,1,4,12,0,0,0,0,0,0,0,8,9,0,187
+658,2020-08-02,Boston Red Sox,New York Yankees,0,37,7,10,3,0,3,6,1,11,0,0,0,0,0,0,0,4,11,0,192
+659,2020-08-04,Boston Red Sox,Tampa Bay Rays,0,36,1,8,2,0,1,1,1,10,0,0,0,1,0,0,0,9,11,0,194
+660,2020-08-05,Boston Red Sox,Tampa Bay Rays,1,36,5,10,2,0,2,5,1,11,2,0,0,0,1,0,0,7,10,0,185
+661,2020-08-07,Boston Red Sox,Toronto Blue Jays,1,29,5,6,1,0,3,5,9,11,0,0,0,0,1,1,0,9,9,0,213
+662,2020-08-08,Boston Red Sox,Toronto Blue Jays,0,31,1,4,0,0,0,1,4,8,0,0,0,2,2,1,0,7,10,0,198
+663,2020-08-09,Boston Red Sox,Toronto Blue Jays,1,30,5,4,0,0,3,4,1,12,0,1,0,0,1,0,0,1,11,0,166
+664,2020-08-10,Boston Red Sox,Tampa Bay Rays,0,37,7,12,2,0,1,7,4,7,0,0,0,0,2,0,0,7,12,0,264
+665,2020-08-11,Boston Red Sox,Tampa Bay Rays,0,32,2,9,1,1,0,2,1,9,2,0,0,0,2,0,1,6,11,0,205
+666,2020-08-12,Boston Red Sox,Tampa Bay Rays,0,38,5,12,0,0,1,5,0,10,0,0,0,0,1,1,0,6,11,0,178
+667,2020-08-13,Boston Red Sox,Tampa Bay Rays,0,39,8,13,7,1,0,8,3,11,1,0,0,0,1,0,0,8,12,0,224
+668,2020-08-14,Boston Red Sox,New York Yankees,0,33,3,7,1,0,1,3,2,12,0,0,0,0,0,0,1,5,9,0,215
+669,2020-08-15,Boston Red Sox,New York Yankees,0,37,5,11,1,1,2,5,1,5,0,0,0,0,0,0,0,6,9,0,185
+670,2020-08-16,Boston Red Sox,New York Yankees,0,31,2,5,2,0,1,1,4,8,0,0,0,1,2,1,0,6,11,0,186
+671,2020-08-17,Boston Red Sox,New York Yankees,0,35,3,8,2,1,0,3,2,9,1,0,0,2,2,0,0,8,10,0,166
+672,2020-08-18,Boston Red Sox,Philadelphia Phillies,0,36,6,11,4,0,0,6,6,15,0,0,1,0,0,0,0,10,11,0,246
+673,2020-08-19,Boston Red Sox,Philadelphia Phillies,1,30,6,9,5,0,1,5,7,10,0,0,1,1,2,1,0,8,9,0,216
+674,2020-08-20,Boston Red Sox,Baltimore Orioles,1,39,7,12,0,0,2,7,4,9,0,0,0,0,0,0,0,9,9,0,206
+675,2020-08-21,Boston Red Sox,Baltimore Orioles,1,35,8,9,1,0,3,8,2,5,1,0,0,0,1,0,0,3,9,0,184
+676,2020-08-22,Boston Red Sox,Baltimore Orioles,0,37,4,8,3,0,1,4,6,7,0,0,0,0,1,0,0,9,9,0,216
+677,2020-08-23,Boston Red Sox,Baltimore Orioles,0,33,4,6,1,0,2,4,4,7,0,0,0,0,0,2,0,6,10,0,197
+678,2020-08-25,Boston Red Sox,Toronto Blue Jays,1,38,9,13,3,1,0,9,3,6,1,0,1,0,0,0,1,7,9,0,222
+679,2020-08-26,Boston Red Sox,Toronto Blue Jays,0,29,1,3,1,0,1,1,3,7,0,0,0,0,1,0,0,4,9,0,178
+680,2020-08-28,Boston Red Sox,Washington Nationals,0,36,2,10,2,0,0,2,1,13,0,0,0,0,0,0,0,8,11,0,201
+681,2020-08-29,Boston Red Sox,Washington Nationals,1,32,5,9,2,1,2,5,0,7,0,0,0,0,1,2,0,3,9,0,205
+682,2020-08-30,Boston Red Sox,Washington Nationals,1,39,9,15,4,0,4,9,3,7,1,0,0,1,1,1,0,10,10,0,206
+683,2020-08-31,Boston Red Sox,Atlanta Braves,0,34,3,8,4,0,0,2,2,11,0,0,0,0,1,0,0,6,9,0,199
+684,2020-09-01,Boston Red Sox,Atlanta Braves,0,34,3,8,2,0,0,3,2,10,1,0,0,0,1,0,0,7,9,0,185
+685,2020-09-02,Boston Red Sox,Atlanta Braves,0,33,5,7,3,0,1,5,3,12,0,0,1,0,0,1,0,5,9,0,181
+686,2020-09-03,Boston Red Sox,Toronto Blue Jays,0,38,2,9,1,0,1,2,5,11,0,0,0,0,1,1,0,11,10,0,242
+687,2020-09-04,Boston Red Sox,Toronto Blue Jays,0,31,7,11,4,0,1,6,2,8,0,0,0,0,1,0,0,5,9,0,162
+688,2020-09-04,Boston Red Sox,Toronto Blue Jays,1,27,3,7,2,0,0,2,4,8,0,0,0,0,1,0,0,7,9,0,169
+689,2020-09-05,Boston Red Sox,Toronto Blue Jays,1,39,9,15,2,0,5,9,3,6,0,0,0,0,1,1,0,8,10,0,221
+690,2020-09-06,Boston Red Sox,Toronto Blue Jays,0,35,8,10,0,0,4,8,7,10,1,0,1,0,0,1,0,9,13,0,263
+691,2020-09-08,Boston Red Sox,Philadelphia Phillies,0,31,5,11,1,0,4,5,2,7,1,0,0,0,1,0,0,8,9,0,169
+692,2020-09-08,Boston Red Sox,Philadelphia Phillies,1,31,5,10,1,0,1,5,3,11,0,0,0,0,0,0,0,8,9,0,156
+693,2020-09-10,Boston Red Sox,Tampa Bay Rays,1,34,4,8,0,0,2,4,3,13,0,0,0,0,1,0,0,6,9,0,202
+694,2020-09-11,Boston Red Sox,Tampa Bay Rays,0,35,1,11,3,0,0,1,2,6,0,0,0,0,3,0,1,9,11,0,217
+695,2020-09-12,Boston Red Sox,Tampa Bay Rays,0,34,4,7,1,0,2,4,1,10,0,0,0,0,0,6,0,4,9,0,157
+696,2020-09-13,Boston Red Sox,Tampa Bay Rays,1,37,6,11,2,0,2,6,2,6,1,0,0,0,1,1,0,7,9,0,191
+697,2020-09-15,Boston Red Sox,Miami Marlins,1,33,2,7,2,0,0,2,4,9,0,0,0,0,1,0,0,8,9,0,185
+698,2020-09-16,Boston Red Sox,Miami Marlins,0,36,4,10,3,0,1,4,4,12,1,0,1,0,0,1,0,11,9,0,215
+699,2020-09-17,Boston Red Sox,Miami Marlins,1,34,5,10,0,0,1,5,3,11,0,0,0,0,2,0,1,5,10,0,189
+700,2020-09-18,Boston Red Sox,New York Yankees,0,47,5,10,2,0,1,5,5,15,0,1,0,2,1,6,0,12,10,0,295
+701,2020-09-19,Boston Red Sox,New York Yankees,0,32,0,5,2,0,0,0,0,9,0,0,0,0,1,0,0,5,10,0,179
+702,2020-09-20,Boston Red Sox,New York Yankees,1,36,10,14,3,0,4,10,4,3,1,0,1,0,0,0,1,8,9,0,202
+703,2020-09-22,Boston Red Sox,Baltimore Orioles,1,37,8,14,4,0,1,7,4,8,0,0,1,3,2,1,0,10,9,0,211
+704,2020-09-23,Boston Red Sox,Baltimore Orioles,1,35,9,10,4,1,0,8,5,10,0,0,0,0,0,0,0,7,10,0,184
+705,2020-09-24,Boston Red Sox,Baltimore Orioles,0,30,1,7,0,0,0,0,2,7,1,0,0,1,4,0,1,5,13,0,194
+706,2020-09-25,Boston Red Sox,Atlanta Braves,0,38,7,7,0,0,1,6,7,7,0,1,1,0,0,0,0,7,12,0,239
+707,2020-09-26,Boston Red Sox,Atlanta Braves,1,36,8,8,1,0,2,8,6,12,0,0,0,1,0,1,0,7,9,0,202
+708,2020-09-27,Boston Red Sox,Atlanta Braves,1,42,9,15,2,0,4,9,4,11,1,0,0,0,0,0,0,11,10,0,203
 709,2021-04-02,Boston Red Sox,Baltimore Orioles,0,29,0,2,1,0,0,0,2,8,0,0,0,1,0,0,0,4,9,4452,190
 710,2021-04-03,Boston Red Sox,Baltimore Orioles,0,33,2,7,1,0,0,2,2,8,1,0,1,0,0,1,0,8,10,4571,171
 711,2021-04-04,Boston Red Sox,Baltimore Orioles,0,32,3,6,2,0,1,3,2,8,0,0,1,0,0,0,0,5,10,4458,208
@@ -717,7 +717,7 @@ Key,Game_Date,Team,Opponent,Game_Result,At_Bats,Runs_Scored,Hits,Doubles,Triples
 716,2021-04-10,Boston Red Sox,Baltimore Orioles,1,38,6,10,2,0,1,4,4,6,0,0,0,0,0,0,1,6,12,9307,214
 717,2021-04-11,Boston Red Sox,Baltimore Orioles,1,44,14,17,2,0,6,13,3,11,3,0,0,1,2,0,0,9,10,8171,226
 718,2021-04-13,Boston Red Sox,Minnesota Twins,1,32,4,7,3,0,2,4,2,5,0,0,0,0,2,0,0,3,9,6724,197
-719,2021-04-14,Boston Red Sox,Minnesota Twins,1,32,3,11,3,0,0,2,3,7,0,1,0,0,0,0,0,12,10,,160
+719,2021-04-14,Boston Red Sox,Minnesota Twins,1,32,3,11,3,0,0,2,3,7,0,1,0,0,0,0,0,12,10,0,160
 720,2021-04-14,Boston Red Sox,Minnesota Twins,1,27,7,8,1,0,1,6,5,11,0,0,0,0,1,0,0,4,10,7074,151
 721,2021-04-15,Boston Red Sox,Minnesota Twins,0,30,3,4,2,0,0,3,4,10,1,0,0,0,1,1,0,5,10,7925,205
 722,2021-04-17,Boston Red Sox,Chicago White Sox,1,34,7,13,3,0,1,7,6,11,0,0,2,0,1,0,0,11,9,4668,216

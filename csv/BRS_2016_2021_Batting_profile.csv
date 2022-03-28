@@ -21,5 +21,5 @@ Stolen_Bases,870,7,0.8,0,0.0,0,6,0.5206896551724138,0.0,0.8827248757240136,0 (57
 Caught_Stealing,870,3,0.34,0,0.0,0,2,0.167816091954023,0.0,0.39487343469781433,0 (731),2 (7),1,1,1,n (870),n (870),1,integer (870),integer (870),Numerical,False,False,False
 Runners_Left_On_Base,870,16,1.84,0,0.0,1,17,6.991954022988506,7.0,2.543735661209558,6 (141),16 (1),1,2,2,n (718),nn (152),1,integer (870),integer (870),Numerical,False,False,False
 Number_of_Players_Used_in_Game,870,13,1.49,0,0.0,9,21,10.462068965517242,10.0,1.8008591083243024,9 (320),19 (1),1,2,2,nn (550),n (320),1,integer (870),integer (870),Numerical,False,False,False
-Attendance_in_Tickets_Sold,870,782,89.89,61,7.01,1562,59659,30725.31149567367,34533,10460.446414114138,33380 (2),33986 (1),4,5,2,nnnnn (761),nnnn (48),2,zip_code (761),integer (48),Numerical,False,False,False
+Attendance_in_Tickets_Sold,870,782,89.89,0,0.0,0,59659,28571.00804597701,33598.5,12781.295637790507,0 (61),33986 (1),1,5,3,nnnnn (761),nnnn (48),2,zip_code (761),integer (109),Numerical,False,False,False
 Game_Length_in_Minutes,870,144,16.55,0,0.0,115,365,197.4977011494253,195.0,30.542307720229882,205 (20),252 (1),3,3,1,nnn (870),nnn (870),1,integer (870),integer (870),Numerical,False,False,False
