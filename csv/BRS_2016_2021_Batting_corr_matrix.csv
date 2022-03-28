@@ -26,7 +26,7 @@ Game_Result,Triples,0.131675619043015
 Game_Result,Hit_By_Pitch,0.0671766609909617
 Game_Result,Reached_On_Error,0.057810593136492
 Game_Result,Grounded_into_Double_Play,0.0532012136111685
-Game_Result,Sacrifice_Hits0.0495317387372651
+Game_Result,Sacrifice_Hits,0.0495317387372651
 Game_Result,Caught_Stealing,0.0414407981548775
 Game_Result,Game_Length_in_Minutes,0.0204686787513652
 Game_Result,Runners_Left_On_Base,-0.0184935398383132
