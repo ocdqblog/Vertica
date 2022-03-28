@@ -2,7 +2,7 @@ Variable_Name_1,Variable_Name_2,Pearson_Correlation_Coefficient
 Runs_Scored,Runs_Batted_In,0.986677612989541
 Hits,Runs_Scored,0.804259501138278
 Hits,Runs_Batted_In,0.799447531029803
-Hit,At_Bats,0.726750246077111
+Hits,At_Bats,0.726750246077111
 At_Bats,Game_Length_in_Minutes,0.663235316864618
 Runs_Batted_In,Home_Runs,0.588093372872726
 Doubles,Hits,0.577229358980546
