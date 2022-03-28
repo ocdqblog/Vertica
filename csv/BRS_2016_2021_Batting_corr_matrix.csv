@@ -30,6 +30,6 @@ Game_Result,Sacrifice_Hits,0.0495317387372651
 Game_Result,Caught_Stealing,0.0414407981548775
 Game_Result,Game_Length_in_Minutes,0.0204686787513652
 Game_Result,Runners_Left_On_Base,-0.0184935398383132
-Game_Result,Attendance_in_Tickets_Sold-0.0348571250485237
+Game_Result,Attendance_in_Tickets_Sold,-0.0348571250485237
 Game_Result,Number_of_Players_Used_in_Game,-0.0420023256039244
 Game_Result,Strikeouts,-0.199152533738936
