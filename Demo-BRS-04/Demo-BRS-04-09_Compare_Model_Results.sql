@@ -141,7 +141,8 @@ Game_Result != ML_Prediction;
 --     Classification using Naive Bayes (BAYES)  
 ---------------------------------------------------------
 
-SELECT * FROM BRS_2016_2021_Batting_prediction_BAYES_metrics; 
+SELECT * FROM BRS_2016_2021_Batting_probability_BAYES_metrics; 
+
 
  ML_Correctly_Predicted_Win | ML_Correctly_Predicted_Loss | ML_Incorrectly_Predicted_Win | ML_Incorrectly_Predicted_Loss | ML_Prediction_Errors | ML_Accuracy | ML_Precision | ML_Recall_Sensitivity | ML_Specificity
 ----------------------------+-----------------------------+------------------------------+-------------------------------+----------------------+-------------+--------------+-----------------------+----------------
