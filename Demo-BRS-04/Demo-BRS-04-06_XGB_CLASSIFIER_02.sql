@@ -33,6 +33,7 @@ USING PARAMETERS model_name='BRS_2016_2021_Batting_XGBModel') AS PRED FROM BRS_2
             1 |          47 |         447 | Of 870 rows, 870 were used and 0 were ignored
 (2 rows)
 
+
 DROP TABLE IF EXISTS BRS_2016_2021_Batting_prediction_XGB;
 
 CREATE TABLE BRS_2016_2021_Batting_prediction_XGB 
