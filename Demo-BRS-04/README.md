@@ -10,7 +10,7 @@ The input data comes from: [BRS_2016_2021_Batting_input.csv](https://github.com/
 
 The input data represents 6 years (2016-2021) of Boston Red Sox Major League Baseball (MLB) regular season baseball game results, including a Game_Result response column, labeled either 0 or 1, where 0 = Loss and 1 = Win.
 
-The previous demo (https://github.com/ocdqblog/Vertica/tree/main/Demo-BRS-03) used the same data, but without the full box score statistics, as a simple introduction to the need to one-hot-encode categorical data values in a predictor column, and to show how a Logistic Regression classification model can return a probability instead of a class. The output of the previous demo showed the Boston Red Sox win probability against their opponents and can also be viewed in: [BRS_2016_2021_output.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_output.csv)
+The previous demo (https://github.com/ocdqblog/Vertica/tree/main/Demo-BRS-03) used the same data, but without the full box score statistics, as a simple introduction to the need to one-hot-encode categorical data values in a predictor column ([BRS_2016_2021_encoded.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_encoded.csv)), and to show how a Logistic Regression classification model can return a probability instead of a class. The output of the previous demo showed the Boston Red Sox win probability against their opponents ([BRS_2016_2021_output.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_output.csv)).
 
 This demo was used in my Baseball Data Analysis Challenge: https://www.ocdqblog.com/home/baseball-data-analysis-challenge
 
