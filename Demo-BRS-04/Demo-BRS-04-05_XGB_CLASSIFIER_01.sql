@@ -4,9 +4,11 @@
 
 DROP MODEL IF EXISTS BRS_2016_2021_Batting_XGBModel;
 
-SELECT XGB_CLASSIFIER ('BRS_2016_2021_Batting_XGBModel', 
-                       'BRS_2016_2021_Batting_input', 
-                       'Game_Result',                                                  'At_Bats,Runs_Scored,Hits,Doubles,Triples,Home_Runs,Runs_Batted_In,Walks,Strikeouts,Hit_By_Pitch,Sacrifice_Hits,Sacrifice_Flies,Reached_On_Error,Grounded_into_Double_Play,Stolen_Bases,Caught_Stealing,Runners_Left_On_Base');
+SELECT XGB_CLASSIFIER (
+'BRS_2016_2021_Batting_XGBModel', 
+'BRS_2016_2021_Batting_input', 
+'Game_Result',
+'At_Bats,Runs_Scored,Hits,Doubles,Triples,Home_Runs,Runs_Batted_In,Walks,Strikeouts,Hit_By_Pitch,Sacrifice_Hits,Sacrifice_Flies,Reached_On_Error,Grounded_into_Double_Play,Stolen_Bases,Caught_Stealing,Runners_Left_On_Base');
 
                     
 SELECT GET_MODEL_SUMMARY(USING PARAMETERS model_name='BRS_2016_2021_Batting_XGBModel'); 
@@ -57,6 +59,6 @@ Additional Info
 ------------------+-----
     tree_count    | 10
 rejected_row_count|  0
-accepted_row_count| 809
+accepted_row_count| 870
 
 (1 row)

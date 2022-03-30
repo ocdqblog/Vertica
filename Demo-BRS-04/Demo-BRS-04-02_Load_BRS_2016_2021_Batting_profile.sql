@@ -4,7 +4,7 @@
 
 DROP TABLE IF EXISTS BRS_2016_2021_Batting_profile;
 
-CREATE TABLE BRS_2016_2021_Batting_profile (Column_Name varchar(25),
+CREATE TABLE BRS_2016_2021_Batting_profile (Column_Name varchar(50),
                                             value_count int,
                                             unique_count int,
                                             unique_percent float,
