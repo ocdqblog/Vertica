@@ -14,9 +14,9 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 13,2016-04-19,April,Tuesday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 14,2016-04-20,April,Wednesday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 15,2016-04-21,April,Thursday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
-16,2016-04-22,April,Friday,Boston Red Sox,Houston Astros,American League (AL) Central,1
-17,2016-04-23,April,Saturday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-18,2016-04-24,April,Sunday,Boston Red Sox,Houston Astros,American League (AL) Central,1
+16,2016-04-22,April,Friday,Boston Red Sox,Houston Astros,American League (AL) West,1
+17,2016-04-23,April,Saturday,Boston Red Sox,Houston Astros,American League (AL) West,0
+18,2016-04-24,April,Sunday,Boston Red Sox,Houston Astros,American League (AL) West,1
 19,2016-04-25,April,Monday,Boston Red Sox,Atlanta Braves,National League (NL) East,1
 20,2016-04-26,April,Tuesday,Boston Red Sox,Atlanta Braves,National League (NL) East,1
 21,2016-04-27,April,Wednesday,Boston Red Sox,Atlanta Braves,National League (NL) East,1
@@ -33,13 +33,13 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 32,2016-05-09,May,Monday,Boston Red Sox,Oakland Athletics,American League (AL) West,1
 33,2016-05-10,May,Tuesday,Boston Red Sox,Oakland Athletics,American League (AL) West,1
 34,2016-05-11,May,Wednesday,Boston Red Sox,Oakland Athletics,American League (AL) West,1
-35,2016-05-12,May,Thursday,Boston Red Sox,Houston Astros,American League (AL) Central,1
-36,2016-05-13,May,Friday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-37,2016-05-14,May,Saturday,Boston Red Sox,Houston Astros,American League (AL) Central,1
-38,2016-05-15,May,Sunday,Boston Red Sox,Houston Astros,American League (AL) Central,1
-39,2016-05-17,May,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
-40,2016-05-18,May,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
-41,2016-05-18,May,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
+35,2016-05-12,May,Thursday,Boston Red Sox,Houston Astros,American League (AL) West,1
+36,2016-05-13,May,Friday,Boston Red Sox,Houston Astros,American League (AL) West,0
+37,2016-05-14,May,Saturday,Boston Red Sox,Houston Astros,American League (AL) West,1
+38,2016-05-15,May,Sunday,Boston Red Sox,Houston Astros,American League (AL) West,1
+39,2016-05-17,May,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
+40,2016-05-18,May,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
+41,2016-05-18,May,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
 42,2016-05-20,May,Friday,Boston Red Sox,Cleveland Guardians (Indians),American League (AL) Central,0
 43,2016-05-21,May,Saturday,Boston Red Sox,Cleveland Guardians (Indians),American League (AL) Central,1
 44,2016-05-22,May,Sunday,Boston Red Sox,Cleveland Guardians (Indians),American League (AL) Central,1
@@ -64,25 +64,25 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 63,2016-06-14,June,Tuesday,Boston Red Sox,Baltimore Orioles,American League (AL) East,0
 64,2016-06-15,June,Wednesday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 65,2016-06-16,June,Thursday,Boston Red Sox,Baltimore Orioles,American League (AL) East,0
-66,2016-06-17,June,Friday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-67,2016-06-18,June,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-68,2016-06-19,June,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
+66,2016-06-17,June,Friday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+67,2016-06-18,June,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+68,2016-06-19,June,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
 69,2016-06-20,June,Monday,Boston Red Sox,Chicago White Sox,American League (AL) Central,0
 70,2016-06-21,June,Tuesday,Boston Red Sox,Chicago White Sox,American League (AL) Central,0
 71,2016-06-22,June,Wednesday,Boston Red Sox,Chicago White Sox,American League (AL) Central,0
 72,2016-06-23,June,Thursday,Boston Red Sox,Chicago White Sox,American League (AL) Central,1
-73,2016-06-24,June,Friday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-74,2016-06-25,June,Saturday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
-75,2016-06-26,June,Sunday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
+73,2016-06-24,June,Friday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+74,2016-06-25,June,Saturday,Boston Red Sox,Texas Rangers,American League (AL) West,0
+75,2016-06-26,June,Sunday,Boston Red Sox,Texas Rangers,American League (AL) West,0
 76,2016-06-27,June,Monday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 77,2016-06-28,June,Tuesday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 78,2016-06-29,June,Wednesday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 79,2016-07-01,July,Friday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
 80,2016-07-02,July,Saturday,Boston Red Sox,Los Angeles Angels,American League (AL) West,0
 81,2016-07-03,July,Sunday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
-82,2016-07-04,July,Monday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-83,2016-07-05,July,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
-84,2016-07-06,July,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
+82,2016-07-04,July,Monday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+83,2016-07-05,July,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) West,0
+84,2016-07-06,July,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) West,1
 85,2016-07-08,July,Friday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 86,2016-07-09,July,Saturday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 87,2016-07-10,July,Sunday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
@@ -102,10 +102,10 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 101,2016-07-29,July,Friday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
 102,2016-07-30,July,Saturday,Boston Red Sox,Los Angeles Angels,American League (AL) West,0
 103,2016-07-31,July,Sunday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
-104,2016-08-01,August,Monday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-105,2016-08-02,August,Tuesday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-106,2016-08-03,August,Wednesday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-107,2016-08-04,August,Thursday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
+104,2016-08-01,August,Monday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+105,2016-08-02,August,Tuesday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+106,2016-08-03,August,Wednesday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+107,2016-08-04,August,Thursday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
 108,2016-08-05,August,Friday,Boston Red Sox,Los Angeles Dodgers,National League (NL) West,1
 109,2016-08-06,August,Saturday,Boston Red Sox,Los Angeles Dodgers,National League (NL) West,0
 110,2016-08-07,August,Sunday,Boston Red Sox,Los Angeles Dodgers,National League (NL) West,0
@@ -126,9 +126,9 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 125,2016-08-23,August,Tuesday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 126,2016-08-24,August,Wednesday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 127,2016-08-25,August,Thursday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
-128,2016-08-26,August,Friday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
-129,2016-08-27,August,Saturday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-130,2016-08-28,August,Sunday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
+128,2016-08-26,August,Friday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
+129,2016-08-27,August,Saturday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+130,2016-08-28,August,Sunday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
 131,2016-08-29,August,Monday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 132,2016-08-30,August,Tuesday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 133,2016-08-31,August,Wednesday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
@@ -204,12 +204,12 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 203,2017-05-19,May,Friday,Boston Red Sox,Oakland Athletics,American League (AL) West,0
 204,2017-05-20,May,Saturday,Boston Red Sox,Oakland Athletics,American League (AL) West,0
 205,2017-05-21,May,Sunday,Boston Red Sox,Oakland Athletics,American League (AL) West,1
-206,2017-05-23,May,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-207,2017-05-24,May,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-208,2017-05-25,May,Thursday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-209,2017-05-26,May,Friday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-210,2017-05-27,May,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-211,2017-05-28,May,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
+206,2017-05-23,May,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+207,2017-05-24,May,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+208,2017-05-25,May,Thursday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+209,2017-05-26,May,Friday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+210,2017-05-27,May,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+211,2017-05-28,May,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
 212,2017-05-29,May,Monday,Boston Red Sox,Chicago White Sox,American League (AL) Central,0
 213,2017-05-30,May,Tuesday,Boston Red Sox,Chicago White Sox,American League (AL) Central,1
 214,2017-05-31,May,Wednesday,Boston Red Sox,Chicago White Sox,American League (AL) Central,1
@@ -223,16 +223,16 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 222,2017-06-09,June,Friday,Boston Red Sox,Detroit Tigers,American League (AL) Central,1
 223,2017-06-10,June,Saturday,Boston Red Sox,Detroit Tigers,American League (AL) Central,1
 224,2017-06-11,June,Sunday,Boston Red Sox,Detroit Tigers,American League (AL) Central,0
-225,2017-06-12,June,Monday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
-226,2017-06-13,June,Tuesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
-227,2017-06-14,June,Wednesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
-228,2017-06-15,June,Thursday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,0
-229,2017-06-16,June,Friday,Boston Red Sox,Houston Astros,American League (AL) Central,1
-230,2017-06-17,June,Saturday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-231,2017-06-18,June,Sunday,Boston Red Sox,Houston Astros,American League (AL) Central,1
-232,2017-06-19,June,Monday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
-233,2017-06-20,June,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-234,2017-06-21,June,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
+225,2017-06-12,June,Monday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
+226,2017-06-13,June,Tuesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
+227,2017-06-14,June,Wednesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
+228,2017-06-15,June,Thursday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,0
+229,2017-06-16,June,Friday,Boston Red Sox,Houston Astros,American League (AL) West,1
+230,2017-06-17,June,Saturday,Boston Red Sox,Houston Astros,American League (AL) West,0
+231,2017-06-18,June,Sunday,Boston Red Sox,Houston Astros,American League (AL) West,1
+232,2017-06-19,June,Monday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
+233,2017-06-20,June,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+234,2017-06-21,June,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
 235,2017-06-23,June,Friday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
 236,2017-06-24,June,Saturday,Boston Red Sox,Los Angeles Angels,American League (AL) West,0
 237,2017-06-25,June,Sunday,Boston Red Sox,Los Angeles Angels,American League (AL) West,0
@@ -243,9 +243,9 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 242,2017-06-30,June,Friday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 243,2017-07-01,July,Saturday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 244,2017-07-02,July,Sunday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
-245,2017-07-03,July,Monday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-246,2017-07-04,July,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-247,2017-07-05,July,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
+245,2017-07-03,July,Monday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+246,2017-07-04,July,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+247,2017-07-05,July,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) West,0
 248,2017-07-06,July,Thursday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 249,2017-07-07,July,Friday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 250,2017-07-08,July,Saturday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
@@ -261,12 +261,12 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 260,2017-07-21,July,Friday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
 261,2017-07-22,July,Saturday,Boston Red Sox,Los Angeles Angels,American League (AL) West,0
 262,2017-07-23,July,Sunday,Boston Red Sox,Los Angeles Angels,American League (AL) West,0
-263,2017-07-24,July,Monday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-264,2017-07-25,July,Tuesday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-265,2017-07-26,July,Wednesday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-266,2017-07-28,July,Friday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
-267,2017-07-29,July,Saturday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-268,2017-07-30,July,Sunday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
+263,2017-07-24,July,Monday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+264,2017-07-25,July,Tuesday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+265,2017-07-26,July,Wednesday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+266,2017-07-28,July,Friday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
+267,2017-07-29,July,Saturday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+268,2017-07-30,July,Sunday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
 269,2017-07-31,July,Monday,Boston Red Sox,Cleveland Guardians (Indians),American League (AL) Central,1
 270,2017-08-01,August,Tuesday,Boston Red Sox,Cleveland Guardians (Indians),American League (AL) Central,1
 271,2017-08-03,August,Thursday,Boston Red Sox,Chicago White Sox,American League (AL) Central,1
@@ -319,10 +319,10 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 318,2017-09-25,September,Monday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
 319,2017-09-26,September,Tuesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
 320,2017-09-27,September,Wednesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
-321,2017-09-28,September,Thursday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-322,2017-09-29,September,Friday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-323,2017-09-30,September,Saturday,Boston Red Sox,Houston Astros,American League (AL) Central,1
-324,2017-10-01,October,Sunday,Boston Red Sox,Houston Astros,American League (AL) Central,0
+321,2017-09-28,September,Thursday,Boston Red Sox,Houston Astros,American League (AL) West,0
+322,2017-09-29,September,Friday,Boston Red Sox,Houston Astros,American League (AL) West,0
+323,2017-09-30,September,Saturday,Boston Red Sox,Houston Astros,American League (AL) West,1
+324,2017-10-01,October,Sunday,Boston Red Sox,Houston Astros,American League (AL) West,0
 325,2018-03-29,March,Thursday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 326,2018-03-30,March,Friday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 327,2018-03-31,March,Saturday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
@@ -350,13 +350,13 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 349,2018-04-27,April,Friday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 350,2018-04-28,April,Saturday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 351,2018-04-29,April,Sunday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
-352,2018-04-30,April,Monday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-353,2018-05-01,May,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
-354,2018-05-02,May,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-355,2018-05-03,May,Thursday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
-356,2018-05-04,May,Friday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-357,2018-05-05,May,Saturday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-358,2018-05-06,May,Sunday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
+352,2018-04-30,April,Monday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+353,2018-05-01,May,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
+354,2018-05-02,May,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+355,2018-05-03,May,Thursday,Boston Red Sox,Texas Rangers,American League (AL) West,0
+356,2018-05-04,May,Friday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+357,2018-05-05,May,Saturday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+358,2018-05-06,May,Sunday,Boston Red Sox,Texas Rangers,American League (AL) West,1
 359,2018-05-08,May,Tuesday,Boston Red Sox,New York Yankees,American League (AL) East,0
 360,2018-05-09,May,Wednesday,Boston Red Sox,New York Yankees,American League (AL) East,0
 361,2018-05-10,May,Thursday,Boston Red Sox,New York Yankees,American League (AL) East,1
@@ -379,10 +379,10 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 378,2018-05-28,May,Monday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 379,2018-05-29,May,Tuesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 380,2018-05-30,May,Wednesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
-381,2018-05-31,May,Thursday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-382,2018-06-01,June,Friday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-383,2018-06-02,June,Saturday,Boston Red Sox,Houston Astros,American League (AL) Central,1
-384,2018-06-03,June,Sunday,Boston Red Sox,Houston Astros,American League (AL) Central,1
+381,2018-05-31,May,Thursday,Boston Red Sox,Houston Astros,American League (AL) West,0
+382,2018-06-01,June,Friday,Boston Red Sox,Houston Astros,American League (AL) West,0
+383,2018-06-02,June,Saturday,Boston Red Sox,Houston Astros,American League (AL) West,1
+384,2018-06-03,June,Sunday,Boston Red Sox,Houston Astros,American League (AL) West,1
 385,2018-06-05,June,Tuesday,Boston Red Sox,Detroit Tigers,American League (AL) Central,1
 386,2018-06-06,June,Wednesday,Boston Red Sox,Detroit Tigers,American League (AL) Central,1
 387,2018-06-07,June,Thursday,Boston Red Sox,Detroit Tigers,American League (AL) Central,0
@@ -392,16 +392,16 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 391,2018-06-11,June,Monday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 392,2018-06-12,June,Tuesday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 393,2018-06-13,June,Wednesday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
-394,2018-06-14,June,Thursday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-395,2018-06-15,June,Friday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-396,2018-06-16,June,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-397,2018-06-17,June,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
+394,2018-06-14,June,Thursday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+395,2018-06-15,June,Friday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+396,2018-06-16,June,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+397,2018-06-17,June,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
 398,2018-06-19,June,Tuesday,Boston Red Sox,Minnesota Twins,American League (AL) Central,0
 399,2018-06-20,June,Wednesday,Boston Red Sox,Minnesota Twins,American League (AL) Central,0
 400,2018-06-21,June,Thursday,Boston Red Sox,Minnesota Twins,American League (AL) Central,1
-401,2018-06-22,June,Friday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-402,2018-06-23,June,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-403,2018-06-24,June,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
+401,2018-06-22,June,Friday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+402,2018-06-23,June,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+403,2018-06-24,June,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
 404,2018-06-26,June,Tuesday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
 405,2018-06-27,June,Wednesday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
 406,2018-06-28,June,Thursday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
@@ -411,12 +411,12 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 410,2018-07-02,July,Monday,Boston Red Sox,Washington Nationals,National League (NL) East,1
 411,2018-07-03,July,Tuesday,Boston Red Sox,Washington Nationals,National League (NL) East,1
 412,2018-07-04,July,Wednesday,Boston Red Sox,Washington Nationals,National League (NL) East,1
-413,2018-07-06,July,Friday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-414,2018-07-07,July,Saturday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-415,2018-07-08,July,Sunday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-416,2018-07-09,July,Monday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-417,2018-07-10,July,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-418,2018-07-11,July,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
+413,2018-07-06,July,Friday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+414,2018-07-07,July,Saturday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+415,2018-07-08,July,Sunday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+416,2018-07-09,July,Monday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+417,2018-07-10,July,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+418,2018-07-11,July,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) West,1
 419,2018-07-12,July,Thursday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 420,2018-07-13,July,Friday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
 421,2018-07-14,July,Saturday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
@@ -430,8 +430,8 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 429,2018-07-27,July,Friday,Boston Red Sox,Minnesota Twins,American League (AL) Central,1
 430,2018-07-28,July,Saturday,Boston Red Sox,Minnesota Twins,American League (AL) Central,1
 431,2018-07-29,July,Sunday,Boston Red Sox,Minnesota Twins,American League (AL) Central,1
-432,2018-07-30,July,Monday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
-433,2018-07-31,July,Tuesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,0
+432,2018-07-30,July,Monday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
+433,2018-07-31,July,Tuesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,0
 434,2018-08-02,August,Thursday,Boston Red Sox,New York Yankees,American League (AL) East,1
 435,2018-08-03,August,Friday,Boston Red Sox,New York Yankees,American League (AL) East,1
 436,2018-08-04,August,Saturday,Boston Red Sox,New York Yankees,American League (AL) East,1
@@ -443,8 +443,8 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 442,2018-08-11,August,Saturday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 443,2018-08-11,August,Saturday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 444,2018-08-12,August,Sunday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
-445,2018-08-14,August,Tuesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
-446,2018-08-15,August,Wednesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,0
+445,2018-08-14,August,Tuesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
+446,2018-08-15,August,Wednesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,0
 447,2018-08-17,August,Friday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 448,2018-08-18,August,Saturday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 449,2018-08-19,August,Sunday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
@@ -464,9 +464,9 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 463,2018-09-03,September,Monday,Boston Red Sox,Atlanta Braves,National League (NL) East,1
 464,2018-09-04,September,Tuesday,Boston Red Sox,Atlanta Braves,National League (NL) East,1
 465,2018-09-05,September,Wednesday,Boston Red Sox,Atlanta Braves,National League (NL) East,1
-466,2018-09-07,September,Friday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-467,2018-09-08,September,Saturday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-468,2018-09-09,September,Sunday,Boston Red Sox,Houston Astros,American League (AL) Central,1
+466,2018-09-07,September,Friday,Boston Red Sox,Houston Astros,American League (AL) West,0
+467,2018-09-08,September,Saturday,Boston Red Sox,Houston Astros,American League (AL) West,0
+468,2018-09-09,September,Sunday,Boston Red Sox,Houston Astros,American League (AL) West,1
 469,2018-09-11,September,Tuesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 470,2018-09-12,September,Wednesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 471,2018-09-13,September,Thursday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
@@ -485,10 +485,10 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 484,2018-09-28,September,Friday,Boston Red Sox,New York Yankees,American League (AL) East,0
 485,2018-09-29,September,Saturday,Boston Red Sox,New York Yankees,American League (AL) East,0
 486,2018-09-30,September,Sunday,Boston Red Sox,New York Yankees,American League (AL) East,1
-487,2019-03-28,March,Thursday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-488,2019-03-29,March,Friday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-489,2019-03-30,March,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-490,2019-03-31,March,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
+487,2019-03-28,March,Thursday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+488,2019-03-29,March,Friday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+489,2019-03-30,March,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+490,2019-03-31,March,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
 491,2019-04-01,April,Monday,Boston Red Sox,Oakland Athletics,American League (AL) West,0
 492,2019-04-02,April,Tuesday,Boston Red Sox,Oakland Athletics,American League (AL) West,0
 493,2019-04-03,April,Wednesday,Boston Red Sox,Oakland Athletics,American League (AL) West,1
@@ -523,38 +523,38 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 522,2019-05-06,May,Monday,Boston Red Sox,Baltimore Orioles,American League (AL) East,0
 523,2019-05-07,May,Tuesday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 524,2019-05-08,May,Wednesday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
-525,2019-05-10,May,Friday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-526,2019-05-11,May,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-527,2019-05-12,May,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
+525,2019-05-10,May,Friday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+526,2019-05-11,May,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+527,2019-05-12,May,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
 528,2019-05-14,May,Tuesday,Boston Red Sox,Colorado Rockies,National League (NL) West,0
 529,2019-05-15,May,Wednesday,Boston Red Sox,Colorado Rockies,National League (NL) West,1
-530,2019-05-17,May,Friday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-531,2019-05-18,May,Saturday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-532,2019-05-19,May,Sunday,Boston Red Sox,Houston Astros,American League (AL) Central,1
+530,2019-05-17,May,Friday,Boston Red Sox,Houston Astros,American League (AL) West,0
+531,2019-05-18,May,Saturday,Boston Red Sox,Houston Astros,American League (AL) West,0
+532,2019-05-19,May,Sunday,Boston Red Sox,Houston Astros,American League (AL) West,1
 533,2019-05-20,May,Monday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 534,2019-05-21,May,Tuesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
 535,2019-05-22,May,Wednesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 536,2019-05-23,May,Thursday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
-537,2019-05-24,May,Friday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-538,2019-05-25,May,Saturday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-539,2019-05-26,May,Sunday,Boston Red Sox,Houston Astros,American League (AL) Central,1
+537,2019-05-24,May,Friday,Boston Red Sox,Houston Astros,American League (AL) West,0
+538,2019-05-25,May,Saturday,Boston Red Sox,Houston Astros,American League (AL) West,0
+539,2019-05-26,May,Sunday,Boston Red Sox,Houston Astros,American League (AL) West,1
 540,2019-05-27,May,Monday,Boston Red Sox,Cleveland Guardians (Indians),American League (AL) Central,1
 541,2019-05-28,May,Tuesday,Boston Red Sox,Cleveland Guardians (Indians),American League (AL) Central,0
 542,2019-05-29,May,Wednesday,Boston Red Sox,Cleveland Guardians (Indians),American League (AL) Central,0
 543,2019-05-31,May,Friday,Boston Red Sox,New York Yankees,American League (AL) East,0
 544,2019-06-01,June,Saturday,Boston Red Sox,New York Yankees,American League (AL) East,0
 545,2019-06-02,June,Sunday,Boston Red Sox,New York Yankees,American League (AL) East,1
-546,2019-06-04,June,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-547,2019-06-05,June,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-548,2019-06-06,June,Thursday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
+546,2019-06-04,June,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+547,2019-06-05,June,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+548,2019-06-06,June,Thursday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
 549,2019-06-07,June,Friday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 550,2019-06-08,June,Saturday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 551,2019-06-08,June,Saturday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 552,2019-06-09,June,Sunday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
-553,2019-06-10,June,Monday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
-554,2019-06-11,June,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
-555,2019-06-12,June,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-556,2019-06-13,June,Thursday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
+553,2019-06-10,June,Monday,Boston Red Sox,Texas Rangers,American League (AL) West,0
+554,2019-06-11,June,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) West,0
+555,2019-06-12,June,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+556,2019-06-13,June,Thursday,Boston Red Sox,Texas Rangers,American League (AL) West,1
 557,2019-06-14,June,Friday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 558,2019-06-15,June,Saturday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 559,2019-06-16,June,Sunday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
@@ -599,9 +599,9 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 598,2019-08-03,August,Saturday,Boston Red Sox,New York Yankees,American League (AL) East,0
 599,2019-08-03,August,Saturday,Boston Red Sox,New York Yankees,American League (AL) East,0
 600,2019-08-04,August,Sunday,Boston Red Sox,New York Yankees,American League (AL) East,0
-601,2019-08-05,August,Monday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-602,2019-08-06,August,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
-603,2019-08-07,August,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
+601,2019-08-05,August,Monday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+602,2019-08-06,August,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
+603,2019-08-07,August,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
 604,2019-08-08,August,Thursday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
 605,2019-08-09,August,Friday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
 606,2019-08-10,August,Saturday,Boston Red Sox,Los Angeles Angels,American League (AL) West,0
@@ -612,8 +612,8 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 611,2019-08-16,August,Friday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 612,2019-08-17,August,Saturday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 613,2019-08-18,August,Sunday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
-614,2019-08-20,August,Tuesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,0
-615,2019-08-21,August,Wednesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,0
+614,2019-08-20,August,Tuesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,0
+615,2019-08-21,August,Wednesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,0
 616,2019-08-23,August,Friday,Boston Red Sox,San Diego Padres,National League (NL) West,1
 617,2019-08-24,August,Saturday,Boston Red Sox,San Diego Padres,National League (NL) West,1
 618,2019-08-25,August,Sunday,Boston Red Sox,San Diego Padres,National League (NL) West,0
@@ -632,8 +632,8 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 631,2019-09-10,September,Tuesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
 632,2019-09-11,September,Wednesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
 633,2019-09-12,September,Thursday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
-634,2019-09-14,September,Saturday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
-635,2019-09-15,September,Sunday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
+634,2019-09-14,September,Saturday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
+635,2019-09-15,September,Sunday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
 636,2019-09-17,September,Tuesday,Boston Red Sox,San Francisco Giants,National League (NL) West,0
 637,2019-09-18,September,Wednesday,Boston Red Sox,San Francisco Giants,National League (NL) West,0
 638,2019-09-19,September,Thursday,Boston Red Sox,San Francisco Giants,National League (NL) West,1
@@ -641,9 +641,9 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 640,2019-09-21,September,Saturday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 641,2019-09-22,September,Sunday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 642,2019-09-23,September,Monday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
-643,2019-09-24,September,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-644,2019-09-25,September,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-645,2019-09-26,September,Thursday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
+643,2019-09-24,September,Tuesday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+644,2019-09-25,September,Wednesday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+645,2019-09-26,September,Thursday,Boston Red Sox,Texas Rangers,American League (AL) West,0
 646,2019-09-27,September,Friday,Boston Red Sox,Baltimore Orioles,American League (AL) East,0
 647,2019-09-28,September,Saturday,Boston Red Sox,Baltimore Orioles,American League (AL) East,0
 648,2019-09-29,September,Sunday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
@@ -670,8 +670,8 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 669,2020-08-15,August,Saturday,Boston Red Sox,New York Yankees,American League (AL) East,0
 670,2020-08-16,August,Sunday,Boston Red Sox,New York Yankees,American League (AL) East,0
 671,2020-08-17,August,Monday,Boston Red Sox,New York Yankees,American League (AL) East,0
-672,2020-08-18,August,Tuesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,0
-673,2020-08-19,August,Wednesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
+672,2020-08-18,August,Tuesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,0
+673,2020-08-19,August,Wednesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
 674,2020-08-20,August,Thursday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 675,2020-08-21,August,Friday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 676,2020-08-22,August,Saturday,Boston Red Sox,Baltimore Orioles,American League (AL) East,0
@@ -689,8 +689,8 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 688,2020-09-04,September,Friday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 689,2020-09-05,September,Saturday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 690,2020-09-06,September,Sunday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
-691,2020-09-08,September,Tuesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,0
-692,2020-09-08,September,Tuesday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
+691,2020-09-08,September,Tuesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,0
+692,2020-09-08,September,Tuesday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
 693,2020-09-10,September,Thursday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 694,2020-09-11,September,Friday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 695,2020-09-12,September,Saturday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
@@ -726,16 +726,16 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 725,2021-04-19,April,Monday,Boston Red Sox,Chicago White Sox,American League (AL) Central,1
 726,2021-04-20,April,Tuesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 727,2021-04-21,April,Wednesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
-728,2021-04-22,April,Thursday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-729,2021-04-23,April,Friday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-730,2021-04-24,April,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-731,2021-04-25,April,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
+728,2021-04-22,April,Thursday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+729,2021-04-23,April,Friday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+730,2021-04-24,April,Saturday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+731,2021-04-25,April,Sunday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
 732,2021-04-27,April,Tuesday,Boston Red Sox,New York Mets,National League (NL) East,1
 733,2021-04-28,April,Wednesday,Boston Red Sox,New York Mets,National League (NL) East,1
-734,2021-04-29,April,Thursday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
-735,2021-04-30,April,Friday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-736,2021-05-01,May,Saturday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
-737,2021-05-02,May,Sunday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
+734,2021-04-29,April,Thursday,Boston Red Sox,Texas Rangers,American League (AL) West,0
+735,2021-04-30,April,Friday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+736,2021-05-01,May,Saturday,Boston Red Sox,Texas Rangers,American League (AL) West,0
+737,2021-05-02,May,Sunday,Boston Red Sox,Texas Rangers,American League (AL) West,0
 738,2021-05-04,May,Tuesday,Boston Red Sox,Detroit Tigers,American League (AL) Central,1
 739,2021-05-05,May,Wednesday,Boston Red Sox,Detroit Tigers,American League (AL) Central,0
 740,2021-05-06,May,Thursday,Boston Red Sox,Detroit Tigers,American League (AL) Central,1
@@ -752,52 +752,52 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 751,2021-05-18,May,Tuesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
 752,2021-05-19,May,Wednesday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 753,2021-05-20,May,Thursday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
-754,2021-05-21,May,Friday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
-755,2021-05-22,May,Saturday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
-756,2021-05-23,May,Sunday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,0
+754,2021-05-21,May,Friday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
+755,2021-05-22,May,Saturday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
+756,2021-05-23,May,Sunday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,0
 757,2021-05-25,May,Tuesday,Boston Red Sox,Atlanta Braves,National League (NL) East,0
 758,2021-05-26,May,Wednesday,Boston Red Sox,Atlanta Braves,National League (NL) East,1
 759,2021-05-28,May,Friday,Boston Red Sox,Miami Marlins,National League (NL) East,1
 760,2021-05-29,May,Saturday,Boston Red Sox,Miami Marlins,National League (NL) East,1
-761,2021-05-31,May,Monday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-762,2021-06-01,June,Tuesday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-763,2021-06-02,June,Wednesday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-764,2021-06-03,June,Thursday,Boston Red Sox,Houston Astros,American League (AL) Central,1
+761,2021-05-31,May,Monday,Boston Red Sox,Houston Astros,American League (AL) West,0
+762,2021-06-01,June,Tuesday,Boston Red Sox,Houston Astros,American League (AL) West,0
+763,2021-06-02,June,Wednesday,Boston Red Sox,Houston Astros,American League (AL) West,0
+764,2021-06-03,June,Thursday,Boston Red Sox,Houston Astros,American League (AL) West,1
 765,2021-06-04,June,Friday,Boston Red Sox,New York Yankees,American League (AL) East,1
 766,2021-06-05,June,Saturday,Boston Red Sox,New York Yankees,American League (AL) East,1
 767,2021-06-06,June,Sunday,Boston Red Sox,New York Yankees,American League (AL) East,1
 768,2021-06-07,June,Monday,Boston Red Sox,Miami Marlins,National League (NL) East,1
-769,2021-06-08,June,Tuesday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-770,2021-06-09,June,Wednesday,Boston Red Sox,Houston Astros,American League (AL) Central,0
-771,2021-06-10,June,Thursday,Boston Red Sox,Houston Astros,American League (AL) Central,1
+769,2021-06-08,June,Tuesday,Boston Red Sox,Houston Astros,American League (AL) West,0
+770,2021-06-09,June,Wednesday,Boston Red Sox,Houston Astros,American League (AL) West,0
+771,2021-06-10,June,Thursday,Boston Red Sox,Houston Astros,American League (AL) West,1
 772,2021-06-11,June,Friday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 773,2021-06-12,June,Saturday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
 774,2021-06-13,June,Sunday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,0
 775,2021-06-14,June,Monday,Boston Red Sox,Toronto Blue Jays,American League (AL) East,1
 776,2021-06-15,June,Tuesday,Boston Red Sox,Atlanta Braves,National League (NL) East,1
 777,2021-06-16,June,Wednesday,Boston Red Sox,Atlanta Braves,National League (NL) East,1
-778,2021-06-18,June,Friday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
-779,2021-06-19,June,Saturday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-780,2021-06-20,June,Sunday,Boston Red Sox,Kansas City Royals,American League (AL) West,0
+778,2021-06-18,June,Friday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
+779,2021-06-19,June,Saturday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+780,2021-06-20,June,Sunday,Boston Red Sox,Kansas City Royals,American League (AL) Central,0
 781,2021-06-22,June,Tuesday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,1
 782,2021-06-23,June,Wednesday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 783,2021-06-24,June,Thursday,Boston Red Sox,Tampa Bay Rays,American League (AL) East,0
 784,2021-06-25,June,Friday,Boston Red Sox,New York Yankees,American League (AL) East,1
 785,2021-06-26,June,Saturday,Boston Red Sox,New York Yankees,American League (AL) East,1
 786,2021-06-27,June,Sunday,Boston Red Sox,New York Yankees,American League (AL) East,1
-787,2021-06-28,June,Monday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-788,2021-06-29,June,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-789,2021-06-30,June,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
-790,2021-07-01,July,Thursday,Boston Red Sox,Kansas City Royals,American League (AL) West,1
+787,2021-06-28,June,Monday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+788,2021-06-29,June,Tuesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+789,2021-06-30,June,Wednesday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
+790,2021-07-01,July,Thursday,Boston Red Sox,Kansas City Royals,American League (AL) Central,1
 791,2021-07-02,July,Friday,Boston Red Sox,Oakland Athletics,American League (AL) West,1
 792,2021-07-03,July,Saturday,Boston Red Sox,Oakland Athletics,American League (AL) West,0
 793,2021-07-04,July,Sunday,Boston Red Sox,Oakland Athletics,American League (AL) West,1
 794,2021-07-05,July,Monday,Boston Red Sox,Los Angeles Angels,American League (AL) West,1
 795,2021-07-06,July,Tuesday,Boston Red Sox,Los Angeles Angels,American League (AL) West,0
 796,2021-07-07,July,Wednesday,Boston Red Sox,Los Angeles Angels,American League (AL) West,0
-797,2021-07-09,July,Friday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,1
-798,2021-07-10,July,Saturday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,0
-799,2021-07-11,July,Sunday,Boston Red Sox,Philadelphia Phillies,American League (AL) West,0
+797,2021-07-09,July,Friday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,1
+798,2021-07-10,July,Saturday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,0
+799,2021-07-11,July,Sunday,Boston Red Sox,Philadelphia Phillies,National League (NL) East,0
 800,2021-07-16,July,Friday,Boston Red Sox,New York Yankees,American League (AL) East,1
 801,2021-07-17,July,Saturday,Boston Red Sox,New York Yankees,American League (AL) East,0
 802,2021-07-18,July,Sunday,Boston Red Sox,New York Yankees,American League (AL) East,0
@@ -830,9 +830,9 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 829,2021-08-17,August,Tuesday,Boston Red Sox,New York Yankees,American League (AL) East,0
 830,2021-08-17,August,Tuesday,Boston Red Sox,New York Yankees,American League (AL) East,0
 831,2021-08-18,August,Wednesday,Boston Red Sox,New York Yankees,American League (AL) East,0
-832,2021-08-20,August,Friday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
-833,2021-08-21,August,Saturday,Boston Red Sox,Texas Rangers,American League (AL) Central,0
-834,2021-08-23,August,Monday,Boston Red Sox,Texas Rangers,American League (AL) Central,1
+832,2021-08-20,August,Friday,Boston Red Sox,Texas Rangers,American League (AL) West,1
+833,2021-08-21,August,Saturday,Boston Red Sox,Texas Rangers,American League (AL) West,0
+834,2021-08-23,August,Monday,Boston Red Sox,Texas Rangers,American League (AL) West,1
 835,2021-08-24,August,Tuesday,Boston Red Sox,Minnesota Twins,American League (AL) Central,1
 836,2021-08-25,August,Wednesday,Boston Red Sox,Minnesota Twins,American League (AL) Central,0
 837,2021-08-26,August,Thursday,Boston Red Sox,Minnesota Twins,American League (AL) Central,1
@@ -852,9 +852,9 @@ Key,Game_Date,Game_Month,Game_Day_of_Week,Team,Opponent,Opponent_Division,Game_R
 851,2021-09-10,September,Friday,Boston Red Sox,Chicago White Sox,American League (AL) Central,0
 852,2021-09-11,September,Saturday,Boston Red Sox,Chicago White Sox,American League (AL) Central,1
 853,2021-09-12,September,Sunday,Boston Red Sox,Chicago White Sox,American League (AL) Central,0
-854,2021-09-13,September,Monday,Boston Red Sox,Seattle Mariners,American League (AL) Central,0
-855,2021-09-14,September,Tuesday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
-856,2021-09-15,September,Wednesday,Boston Red Sox,Seattle Mariners,American League (AL) Central,1
+854,2021-09-13,September,Monday,Boston Red Sox,Seattle Mariners,American League (AL) West,0
+855,2021-09-14,September,Tuesday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
+856,2021-09-15,September,Wednesday,Boston Red Sox,Seattle Mariners,American League (AL) West,1
 857,2021-09-17,September,Friday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 858,2021-09-18,September,Saturday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
 859,2021-09-19,September,Sunday,Boston Red Sox,Baltimore Orioles,American League (AL) East,1
