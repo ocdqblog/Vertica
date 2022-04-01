@@ -14,6 +14,8 @@ This demo was used in my Baseball Data Analysis Challenge: https://www.ocdqblog.
 
 The SQL files above (named in order of execution) contain the queries and results that will walk you through the demo.
 
+The output data for this demo can also be viewed in: [BRS_2016_2021_win_probability.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_win_probability.csv)
+
 To Learn More about Vertica In-Database Machine Learning for Predictive Analytics, check out the Vertica documentation: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/MachineLearning.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics 
 
 Check out the Vertica GitHub for more awesome repositories: https://github.com/vertica
