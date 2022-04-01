@@ -1,0 +1,51 @@
+Key,      Team      , Game_Metric_Type  ,       Game_Metric_Value       ,  Win_Probability
+1,Boston Red Sox,Game_Day_of_Week,Wednesday,0.621047828501882
+2,Boston Red Sox,Game_Day_of_Week,Friday,0.608399241528952
+3,Boston Red Sox,Game_Day_of_Week,Monday,0.569007177636546
+4,Boston Red Sox,Game_Day_of_Week,Thursday,0.545577499897059
+5,Boston Red Sox,Game_Day_of_Week,Sunday,0.545229671305732
+6,Boston Red Sox,Game_Day_of_Week,Tuesday,0.545085503545496
+7,Boston Red Sox,Game_Day_of_Week,Saturday,0.537358445953015
+8,Boston Red Sox,Game_Month,May,0.601002449077947
+9,Boston Red Sox,Game_Month,April,0.59568109909801
+10,Boston Red Sox,Game_Month,July,0.577495325768641
+11,Boston Red Sox,Game_Month,September,0.564727896623445
+12,Boston Red Sox,Game_Month,June,0.558794823547582
+13,Boston Red Sox,Game_Month,August,0.529920323470617
+14,Boston Red Sox,Game_Month,October,0.49710113029989
+15,Boston Red Sox,Game_Month,March,0.429814809179887
+16,Boston Red Sox,Opponent,St. Louis Cardinals,0.999765255387205
+17,Boston Red Sox,Opponent,Cincinnati Reds,0.999563365387808
+18,Boston Red Sox,Opponent,Pittsburgh Pirates,0.999563365387808
+19,Boston Red Sox,Opponent,Miami Marlins,0.89756245316308
+20,Boston Red Sox,Opponent,Washington Nationals,0.885116022372991
+21,Boston Red Sox,Opponent,New York Mets,0.732043065962515
+22,Boston Red Sox,Opponent,Colorado Rockies,0.715377113478947
+23,Boston Red Sox,Opponent,Arizona Diamondbacks,0.668546431228763
+24,Boston Red Sox,Opponent,San Diego Padres,0.668546431228756
+25,Boston Red Sox,Opponent,Chicago Cubs,0.664013431018202
+26,Boston Red Sox,Opponent,Atlanta Braves,0.650671271806771
+27,Boston Red Sox,Opponent,Texas Rangers,0.63585651203592
+28,Boston Red Sox,Opponent,Baltimore Orioles,0.628597099075963
+29,Boston Red Sox,Opponent,Minnesota Twins,0.618245958991409
+30,Boston Red Sox,Opponent,Kansas City Royals,0.61428096485593
+31,Boston Red Sox,Opponent,Toronto Blue Jays,0.599989754267722
+32,Boston Red Sox,Opponent,Los Angeles Angels,0.593391181194701
+33,Boston Red Sox,Opponent,Chicago White Sox,0.570458057984563
+34,Boston Red Sox,Opponent,San Francisco Giants,0.565626543030477
+35,Boston Red Sox,Opponent,Cleveland Guardians (Indians),0.562970609167229
+36,Boston Red Sox,Opponent,Seattle Mariners,0.559107474951931
+37,Boston Red Sox,Opponent,Philadelphia Phillies,0.54588046355595
+38,Boston Red Sox,Opponent,Oakland Athletics,0.532162630071707
+39,Boston Red Sox,Opponent,Detroit Tigers,0.515311884302596
+40,Boston Red Sox,Opponent,Tampa Bay Rays,0.495221466860179
+41,Boston Red Sox,Opponent,Houston Astros,0.441041376497563
+42,Boston Red Sox,Opponent,New York Yankees,0.428613461396352
+43,Boston Red Sox,Opponent,Milwaukee Brewers,0.332325144601367
+44,Boston Red Sox,Opponent,Los Angeles Dodgers,0.320954024997328
+45,Boston Red Sox,Opponent_Division,National League (NL) Central,0.812404484526841
+46,Boston Red Sox,Opponent_Division,National League (NL) East,0.693482373353625
+47,Boston Red Sox,Opponent_Division,National League (NL) West,0.598872010612162
+48,Boston Red Sox,Opponent_Division,American League (AL) Central,0.57581242110488
+49,Boston Red Sox,Opponent_Division,American League (AL) West,0.551103597026283
+50,Boston Red Sox,Opponent_Division,American League (AL) East,0.53806786716387
