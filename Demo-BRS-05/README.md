@@ -4,9 +4,9 @@ Machine Learning Demo using Baseball Related Statistics (BRS).
 
 The raw data used in this demo was collected via a paid subscription to: https://stathead.com/baseball/ 
 
-The input data comes from: [BRS_2016_2021_ODMD_input.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_ODMD_input.csv)
+The input data comes from: [BRS_2016_2021_WP_input.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_WP_input.csv)
 
-( Its data profiling results come from: [BRS_2016_2021_ODMD_profile.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_ODMD_profile.csv) )
+( Its data profiling results come from: [BRS_2016_2021_WP_profile.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_WP_profile.csv) )
 
 The input data represents 6 years (2016-2021) of Boston Red Sox Major League Baseball (MLB) regular season baseball game results, including a Game_Result response column, labeled either 0 or 1, where 0 = Loss and 1 = Win.
 
