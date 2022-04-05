@@ -10,7 +10,7 @@ The input data comes from: [BRS_2016_2021_Batting_input.csv](https://github.com/
 
 ( Input data profiling results come from: [BRS_2016_2021_Batting_profile.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_Batting_profile.csv) )
 
-The input data represents 6 years (2016-2021) of Boston Red Sox Major League Baseball (MLB) regular season baseball game results, including a Game_Result response column, labeled either 0 or 1, where 0 = Loss and 1 = Win.
+The input data represents 6 years (2016-2021) of Boston Red Sox Major League Baseball (MLB) regular season game results, including a Game_Result response column, labeled either 0 or 1, where 0 = Loss and 1 = Win.
 
 The prepared data can also be viewed in: [BRS_2016_2021_WP_input.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_WP_input.csv)
 
