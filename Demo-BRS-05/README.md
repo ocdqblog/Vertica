@@ -20,7 +20,7 @@ The SQL files above (named in order of execution) contain the queries and result
 
 The demo uses logistic regression classification models to calculate win probabilities for the Red Sox across nine (9) game metrics: opponent, opponent’s division, month of year, day of week, runs scored, hits, extra base hits, home runs, and walks versus strikeouts. It also uses the input data to train a Naïve Bayes classification model to predict wins and losses with an associated probability based on the runs scored, hits, extra base hits, home runs, and walks versus strikeouts metrics (all of which are binned ranges of input data values). The 2022 baseball season will be usd as the test data to see if the model can correctly predict the results of games it was not trained on.
 
-The output data for this demo can also be viewed in: [BRS_2016_2021_win_probability.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_win_probability.csv)
+The win probabilities calculated by this demo can also be viewed in: [BRS_2016_2021_win_probability.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_win_probability.csv)
 
 The results of this demo can also be viewed in this Microsoft Excel file: [Baseball Data Analysis Challenge 2022-04-05.xlsx](https://docs.google.com/spreadsheets/d/1AnWONcuCjqZ1bYkSGf9awVEeQQ-4m8W0/edit?ouid=106495683628010512160&rtpof=true&sd=true&usp=sharing)
 
