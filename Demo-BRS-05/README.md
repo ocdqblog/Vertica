@@ -1,16 +1,20 @@
 # Demo-BRS-05
 
-Machine Learning Demo using Baseball Related Statistics (BRS). 
+Machine Learning Demo using Baseball Related Statistics (BRS).
+
+This demo was used in my Baseball Data Analysis Challenge: https://www.ocdqblog.com/home/baseball-data-analysis-challenge
 
 The raw data used in this demo was collected via a paid subscription to: https://stathead.com/baseball/ 
 
-The input data comes from: [BRS_2016_2021_WP_input.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_WP_input.csv)
+The input data comes from: [BRS_2016_2021_Batting_input.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_Batting_input.csv)
 
-( Its data profiling results come from: [BRS_2016_2021_WP_profile.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_WP_profile.csv) )
+( Input data profiling results come from: [BRS_2016_2021_Batting_profile.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_Batting_profile.csv) )
 
 The input data represents 6 years (2016-2021) of Boston Red Sox Major League Baseball (MLB) regular season baseball game results, including a Game_Result response column, labeled either 0 or 1, where 0 = Loss and 1 = Win.
 
-This demo was used in my Baseball Data Analysis Challenge: https://www.ocdqblog.com/home/baseball-data-analysis-challenge
+The prepared data can also be viewed in: [BRS_2016_2021_WP_input.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_WP_input.csv)
+
+( Prepared data profiling results can also be viewed in: [BRS_2016_2021_WP_profile.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_WP_profile.csv) )
 
 The SQL files above (named in order of execution) contain the queries and results that will walk you through the demo.
 
