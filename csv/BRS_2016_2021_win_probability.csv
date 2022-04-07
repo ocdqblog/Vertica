@@ -63,6 +63,6 @@ Key,Team,Game_Metric_Type,Game_Metric_Value,Win_Probability
 62,Boston Red Sox,Runs_Scored_Metric,Runs_Scored = 4 or 5,0.608161316765206
 63,Boston Red Sox,Runs_Scored_Metric,Runs_Scored = 2 or 3,0.235052238220583
 64,Boston Red Sox,Runs_Scored_Metric,Runs_Scored <= 1,0.0708079996308489
-65,Boston Red Sox,Walks_Minus_Strikeouts_Metric,Walks = Strikeouts,0.816077867824191
-66,Boston Red Sox,Walks_Minus_Strikeouts_Metric,Walks > Strikeouts,0.641503712159098
-67,Boston Red Sox,Walks_Minus_Strikeouts_Metric,Strikeouts > Walks,0.544068933493066
+65,Boston Red Sox,Walks_Minus_Strikeouts_Metric,Walks = Strikeouts,0.815852604905327
+66,Boston Red Sox,Walks_Minus_Strikeouts_Metric,Walks > Strikeouts,0.787866281700013
+67,Boston Red Sox,Walks_Minus_Strikeouts_Metric,Strikeouts > Walks,0.536552724986346
