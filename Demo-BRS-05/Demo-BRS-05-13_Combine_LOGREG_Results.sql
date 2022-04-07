@@ -106,8 +106,8 @@ SELECT * FROM BRS_2016_2021_win_probability ORDER BY Game_Metric_Type, Win_Proba
  Boston Red Sox | Runs_Scored_Metric            | Runs_Scored = 4 or 5          |  0.608161316765206
  Boston Red Sox | Runs_Scored_Metric            | Runs_Scored = 2 or 3          |  0.235052238220583
  Boston Red Sox | Runs_Scored_Metric            | Runs_Scored <= 1              | 0.0708079996308489
- Boston Red Sox | Walks_Minus_Strikeouts_Metric | Walks = Strikeouts            |  0.816077867824191
- Boston Red Sox | Walks_Minus_Strikeouts_Metric | Walks > Strikeouts            |  0.641503712159098
- Boston Red Sox | Walks_Minus_Strikeouts_Metric | Strikeouts > Walks            |  0.544068933493066
+ Boston Red Sox | Walks_Minus_Strikeouts_Metric | Walks = Strikeouts            |  0.815852604905327
+ Boston Red Sox | Walks_Minus_Strikeouts_Metric | Walks > Strikeouts            |  0.787866281700013
+ Boston Red Sox | Walks_Minus_Strikeouts_Metric | Strikeouts > Walks            |  0.536552724986346
 
 (67 rows)

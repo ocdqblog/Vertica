@@ -39,8 +39,8 @@ SELECT * FROM BRS_2016_2021_WP_Walks_Minus_Strikeouts_Metric_probability;
 
       Team      |       Game_Metric_Type        | Game_Metric_Value  |  Win_Probability
 ----------------+-------------------------------+--------------------+-------------------
- Boston Red Sox | Walks_Minus_Strikeouts_Metric | Strikeouts > Walks | 0.544068933493066
- Boston Red Sox | Walks_Minus_Strikeouts_Metric | Walks = Strikeouts | 0.816077867824191
- Boston Red Sox | Walks_Minus_Strikeouts_Metric | Walks > Strikeouts | 0.641503712159098
+ Boston Red Sox | Walks_Minus_Strikeouts_Metric | Strikeouts > Walks | 0.536552724986346
+ Boston Red Sox | Walks_Minus_Strikeouts_Metric | Walks = Strikeouts | 0.815852604905327
+ Boston Red Sox | Walks_Minus_Strikeouts_Metric | Walks > Strikeouts | 0.787866281700013
 
 (3 rows)

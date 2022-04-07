@@ -18,8 +18,8 @@ USING PARAMETERS model_name='BRS_2016_2021_WP_BAYES_model') AS PRED FROM BRS_201
 
  actual_class | predicted_0 | predicted_1 |                    comment
 --------------+-------------+-------------+-----------------------------------------------
-            0 |         274 |         102 |
-            1 |          98 |         396 | Of 870 rows, 870 were used and 0 were ignored
+            0 |         271 |         105 |
+            1 |          97 |         397 | Of 870 rows, 870 were used and 0 were ignored
 
 (2 rows)
 
