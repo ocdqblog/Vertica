@@ -22,6 +22,8 @@ The demo uses logistic regression classification models to calculate win probabi
 
 The win probabilities calculated by this demo can also be viewed in: [BRS_2016_2021_win_probability.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_win_probability.csv)
 
+The game probabilities calculated by this demo can also be viewed in: [BRS_2016_2021_game_probability.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_game_probability.csv)
+
 The results of this demo can also be viewed in this Microsoft Excel file: [Baseball Data Analysis Challenge 2022-04-05.xlsx](https://docs.google.com/spreadsheets/d/1AnWONcuCjqZ1bYkSGf9awVEeQQ-4m8W0/edit?ouid=106495683628010512160&rtpof=true&sd=true&usp=sharing)
 
 To Learn More about Vertica In-Database Machine Learning for Predictive Analytics, check out the Vertica documentation: https://www.vertica.com/docs/11.1.x/HTML/Content/Authoring/AnalyzingData/MachineLearning/MachineLearning.htm?tocpath=Analyzing%20Data%7CMachine%20Learning%20for%20Predictive%20Analytics 
