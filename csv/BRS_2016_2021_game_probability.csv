@@ -1,0 +1,90 @@
+Key,ML_Prediction,ML_Probability,Runs_Scored_Metric,Hits_Metric,Home_Runs_Metric,Extra_Base_Hits_Metric,Walks_Minus_Strikeouts_Metric
+1,0,0.999774922573044,Runs_Scored <= 1,Hits <= 3,Home_Runs = 0,Extra_Base_Hits = 0,Strikeouts > Walks
+2,1,0.999727010339926,Runs_Scored >= 10,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 5,Walks = Strikeouts
+3,1,0.999690966244088,Runs_Scored >= 10,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 5,Walks > Strikeouts
+4,1,0.999072832236703,Runs_Scored >= 10,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 5,Walks = Strikeouts
+5,1,0.999057095184849,Runs_Scored >= 10,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 5,Strikeouts > Walks
+6,1,0.998950504634153,Runs_Scored >= 10,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 5,Walks > Strikeouts
+7,1,0.998609078958119,Runs_Scored >= 10,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 5,Walks > Strikeouts
+8,1,0.998273579059877,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 5,Walks = Strikeouts
+9,1,0.998230347107811,Runs_Scored >= 10,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+10,0,0.998121815922581,Runs_Scored <= 1,Hits <= 3,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+11,1,0.998046006745221,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 5,Walks > Strikeouts
+12,1,0.997997087503546,Runs_Scored >= 10,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+13,0,0.997977944110493,Runs_Scored <= 1,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits = 0,Strikeouts > Walks
+14,0,0.996834941615636,Runs_Scored <= 1,Hits <= 3,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+15,1,0.99680270172364,Runs_Scored >= 10,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 5,Strikeouts > Walks
+16,1,0.995765506819355,Runs_Scored >= 10,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 5,Strikeouts > Walks
+17,1,0.99461688520206,Runs_Scored >= 10,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 5,Strikeouts > Walks
+18,1,0.994156831353014,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 5,Walks = Strikeouts
+19,1,0.994058150031757,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 5,Strikeouts > Walks
+20,1,0.993910001918529,Runs_Scored >= 10,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+21,1,0.993390193145171,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 5,Walks > Strikeouts
+22,0,0.992608254354845,Runs_Scored = 2 or 3,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits = 0,Strikeouts > Walks
+23,1,0.991038309121815,Runs_Scored >= 10,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+24,1,0.990179998904679,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 5,Walks = Strikeouts
+25,1,0.988897417469604,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 5,Walks > Strikeouts
+26,1,0.988896990207558,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+27,1,0.988622069617193,Runs_Scored >= 10,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+28,0,0.988465023891754,Runs_Scored = 2 or 3,Hits <= 3,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+29,1,0.987448960239152,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+30,0,0.98334656897511,Runs_Scored <= 1,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+31,1,0.981028345139191,Runs_Scored = 4 or 5,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 5,Strikeouts > Walks
+32,1,0.980089955455607,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 5,Strikeouts > Walks
+33,1,0.979600685335486,Runs_Scored >= 10,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+34,0,0.97490742206414,Runs_Scored = 2 or 3,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits = 0,Walks = Strikeouts
+35,1,0.973773833969046,Runs_Scored > 5 but <= 9,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 5,Strikeouts > Walks
+36,0,0.972217929541055,Runs_Scored <= 1,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+37,0,0.967535924087168,Runs_Scored = 2 or 3,Hits >= 10,Home_Runs = 0,Extra_Base_Hits = 0,Strikeouts > Walks
+38,1,0.966858432220726,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 5,Strikeouts > Walks
+39,1,0.96605527160141,Runs_Scored >= 10,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+40,0,0.96443168637514,Runs_Scored = 4 or 5,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits = 0,Strikeouts > Walks
+41,1,0.963244477768483,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+42,1,0.962643355579234,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+43,0,0.961852990778283,Runs_Scored = 2 or 3,Hits <= 3,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+44,1,0.958590994968755,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+45,1,0.951846970644659,Runs_Scored > 5 but <= 9,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+46,0,0.95083676264999,Runs_Scored <= 1,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+47,1,0.94583163837044,Runs_Scored > 5 but <= 9,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+48,0,0.945364210657688,Runs_Scored = 4 or 5,Hits <= 3,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+49,0,0.94470256538339,Runs_Scored <= 1,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+50,0,0.941403732703654,Runs_Scored = 2 or 3,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+51,1,0.939508984680739,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+52,1,0.938329771523953,Runs_Scored = 4 or 5,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 5,Strikeouts > Walks
+53,1,0.93206238468202,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+54,0,0.929103009986517,Runs_Scored <= 1,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+55,1,0.919849327771591,Runs_Scored = 4 or 5,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 5,Strikeouts > Walks
+56,1,0.91614352113352,Runs_Scored > 5 but <= 9,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 5,Strikeouts > Walks
+57,0,0.904955869245631,Runs_Scored = 2 or 3,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+58,1,0.900172608805689,Runs_Scored = 4 or 5,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 5,Strikeouts > Walks
+59,1,0.890113300704957,Runs_Scored = 4 or 5,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+60,1,0.888454649238526,Runs_Scored = 4 or 5,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+61,1,0.883481163931682,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+62,1,0.877379594410426,Runs_Scored = 4 or 5,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+63,1,0.859349834382429,Runs_Scored = 4 or 5,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+64,1,0.85329293348213,Runs_Scored > 5 but <= 9,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+65,1,0.851171434549553,Runs_Scored > 5 but <= 9,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+66,1,0.843677315901942,Runs_Scored = 4 or 5,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+67,0,0.840312089045008,Runs_Scored = 2 or 3,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+68,1,0.837073459113719,Runs_Scored > 5 but <= 9,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+69,1,0.817970988675918,Runs_Scored > 5 but <= 9,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+70,1,0.809179881327557,Runs_Scored = 4 or 5,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+71,0,0.780973309274121,Runs_Scored = 2 or 3,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+72,0,0.764374247430185,Runs_Scored = 4 or 5,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+73,0,0.757201177940761,Runs_Scored = 2 or 3,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+74,1,0.754435812881248,Runs_Scored = 2 or 3,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 5,Strikeouts > Walks
+75,0,0.73695266876692,Runs_Scored = 2 or 3,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+76,0,0.733673893052802,Runs_Scored = 2 or 3,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+77,1,0.700923045070837,Runs_Scored = 4 or 5,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+78,0,0.678784429983535,Runs_Scored = 2 or 3,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+79,0,0.657833980438202,Runs_Scored = 4 or 5,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+80,1,0.642572064214258,Runs_Scored = 4 or 5,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks = Strikeouts
+81,1,0.638693635392219,Runs_Scored = 4 or 5,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+82,1,0.627256096751927,Runs_Scored > 5 but <= 9,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+83,1,0.616605283697067,Runs_Scored = 2 or 3,Hits >= 10,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+84,1,0.613605313927289,Runs_Scored = 4 or 5,Hits > 3 but <= 9,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+85,1,0.590965456086299,Runs_Scored = 2 or 3,Hits >= 10,Home_Runs = 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+86,1,0.581404325545108,Runs_Scored = 4 or 5,Hits >= 10,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
+87,1,0.52147662934828,Runs_Scored = 2 or 3,Hits > 3 but <= 9,Home_Runs > 1,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+88,0,0.515161269677407,Runs_Scored = 4 or 5,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Walks > Strikeouts
+89,0,0.500673231738528,Runs_Scored > 5 but <= 9,Hits > 3 but <= 9,Home_Runs = 0,Extra_Base_Hits > 0 but <= 5,Strikeouts > Walks
