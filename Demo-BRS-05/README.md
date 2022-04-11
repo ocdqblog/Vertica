@@ -26,6 +26,8 @@ The win probabilities calculated by this demo can also be viewed in: [BRS_2016_2
 
 The game probabilities calculated by this demo can also be viewed in: [BRS_2016_2021_game_probability.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_game_probability.csv)
 
+( Expanded view of the game probabilities, including row counts for the training data: [BRS_2016_2021_training_probability.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_training_probability.csv) )
+
 The game predictions made by this demo can also be viewed in: [BRS_2016_2021_WP_predictions.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_WP_predictions.csv)
 
 The game prediction errors made by this demo can also be viewed in: [BRS_2016_2021_WP_prediction_errors.csv](https://github.com/ocdqblog/Vertica/blob/main/csv/BRS_2016_2021_WP_prediction_errors.csv)
