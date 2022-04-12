@@ -363,3 +363,121 @@ ML_Probability DESC;
  0             | 0.500673231738528 | Runs_Scored > 5 but <= 9 | Hits > 3 but <= 9 | Home_Runs = 0    | Extra_Base_Hits > 0 but <= 5 | Strikeouts > Walks
 
 (89 rows)
+
+
+---------------------------------------------------------
+--        BAYES Game Probability Combinations 
+--           With Training Data Row Counts 
+--    and Prediction Results (Correct vs. Incorrect)   
+---------------------------------------------------------
+
+SELECT
+a.ML_Prediction, 
+a.ML_Probability,
+a.Runs_Scored_Metric,
+a.Hits_Metric,
+a.Home_Runs_Metric,
+a.Extra_Base_Hits_Metric,
+a.Walks_Minus_Strikeouts_Metric,
+a.Training_Rows,
+ISNULL(b.Training_Correct_Predictions, 0) AS Training_Correct_Predictions,
+ISNULL(c.Training_Incorrect_Predictions, 0) AS Training_Incorrect_Predictions
+
+FROM
+
+(SELECT
+ ML_Prediction, 
+ ML_Probability,
+ Runs_Scored_Metric,
+ Hits_Metric,
+ Home_Runs_Metric,
+ Extra_Base_Hits_Metric,
+ Walks_Minus_Strikeouts_Metric,
+ COUNT(*) AS Training_Rows
+
+ FROM 
+ BRS_2016_2021_WP_BAYES_probability 
+
+ GROUP BY
+ ML_Prediction, 
+ ML_Probability,
+ Runs_Scored_Metric,
+ Hits_Metric,
+ Home_Runs_Metric,
+ Extra_Base_Hits_Metric,
+ Walks_Minus_Strikeouts_Metric) AS a
+
+LEFT OUTER JOIN
+ 
+(SELECT
+ ML_Prediction, 
+ ML_Probability,
+ Runs_Scored_Metric,
+ Hits_Metric,
+ Home_Runs_Metric,
+ Extra_Base_Hits_Metric,
+ Walks_Minus_Strikeouts_Metric,
+ COUNT(*) AS Training_Correct_Predictions
+
+ FROM 
+ BRS_2016_2021_WP_BAYES_probability
+
+ WHERE
+ Game_Result = ML_Prediction 
+
+ GROUP BY
+ ML_Prediction, 
+ ML_Probability,
+ Runs_Scored_Metric,
+ Hits_Metric,
+ Home_Runs_Metric,
+ Extra_Base_Hits_Metric,
+ Walks_Minus_Strikeouts_Metric) AS b
+
+ON 
+a.ML_Prediction = b.ML_Prediction 
+AND a.ML_Probability = b.ML_Probability
+AND a.Runs_Scored_Metric = b.Runs_Scored_Metric
+AND a.Hits_Metric = b.Hits_Metric
+AND a.Home_Runs_Metric = b.Home_Runs_Metric
+AND a.Extra_Base_Hits_Metric = b.Extra_Base_Hits_Metric
+AND a.Walks_Minus_Strikeouts_Metric = b.Walks_Minus_Strikeouts_Metric
+
+LEFT OUTER JOIN
+ 
+(SELECT
+ ML_Prediction, 
+ ML_Probability,
+ Runs_Scored_Metric,
+ Hits_Metric,
+ Home_Runs_Metric,
+ Extra_Base_Hits_Metric,
+ Walks_Minus_Strikeouts_Metric,
+ COUNT(*) AS Training_Incorrect_Predictions
+
+ FROM 
+ BRS_2016_2021_WP_BAYES_probability
+
+ WHERE
+ Game_Result != ML_Prediction 
+
+ GROUP BY
+ ML_Prediction, 
+ ML_Probability,
+ Runs_Scored_Metric,
+ Hits_Metric,
+ Home_Runs_Metric,
+ Extra_Base_Hits_Metric,
+ Walks_Minus_Strikeouts_Metric) AS c
+
+ON 
+a.ML_Prediction = c.ML_Prediction 
+AND a.ML_Probability = c.ML_Probability
+AND a.Runs_Scored_Metric = c.Runs_Scored_Metric
+AND a.Hits_Metric = c.Hits_Metric
+AND a.Home_Runs_Metric = c.Home_Runs_Metric
+AND a.Extra_Base_Hits_Metric = c.Extra_Base_Hits_Metric
+AND a.Walks_Minus_Strikeouts_Metric = c.Walks_Minus_Strikeouts_Metric
+
+ORDER BY
+a.ML_Probability DESC;
